@@ -1,0 +1,2 @@
+[console_scripts]
+creador-tests = creador_tests.cli:main

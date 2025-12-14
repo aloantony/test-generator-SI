@@ -1,0 +1,6 @@
+PyMuPDF>=1.23.0
+PyYAML>=6.0
+jsonschema>=4.17.0
+
+[dev]
+pytest>=7.0.0

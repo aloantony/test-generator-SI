@@ -1,0 +1,287 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "C1 - Cuestionario tema de introducción_ Revisión del intento _ UBUVirtual.pdf",
+    "doc_type": "moodle_attempt_review",
+    "page_count": 5
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "number": 1,
+      "kind": "unknown",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "assets": []
+      },
+      "grading": null,
+      "content": {},
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "pages": [
+          0
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q2",
+      "number": 2,
+      "kind": "matching",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\n¿Cuáles de las siguientes capacidades debería tener un programa para poder pasar el test de Turing?\na.\nCapacidad para percibir visualmente objetos\nb.\nCapacidad de manipulación física de objetos\nc.\nRazonamiento automático \nd.\nProcesamiento del lenguaje natural \nLas respuestas correctas son: Procesamiento del lenguaje natural, Razonamiento automático\nAsocia las siguientes definiciones de IA con la categoría que le corresponde\n«La rama de la ciencia de la computación que se ocupa de la automatización de la conducta\ninteligente»\nSistemas que actúan racionalmente\n\n«El estudio de las facultades mentales mediante el uso de modelos computacionales»\nSistemas que piensan racionalmente\n\n«El arte de crear máquinas con capacidad de realizar funciones que realizadas por personas requieren\nde inteligencia»\nSistemas que actúan como humanos\n\nLa respuesta correcta es: «La rama de la ciencia de la computación que se ocupa de la automatización de la conducta inteligente» → Sistemas que\nactúan racionalmente, «El estudio de las facultades mentales mediante el uso de modelos computacionales» → Sistemas que piensan racionalmente, «El\narte de crear máquinas con capacidad de realizar funciones que realizadas por personas requieren de inteligencia» → Sistemas que actúan como\nhumanos\n14/12/25, 20:40\nC1 - Cuestionario tema de introducción: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1245842&cmid=3422319\n1/5",
+        "assets": []
+      },
+      "grading": null,
+      "content": {},
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\n¿Cuáles de las siguientes capacidades debería tener un programa para poder pasar el test de Turing?\na.\nCapacidad para percibir visualmente objetos\nb.\nCapacidad de manipulación física de objetos\nc.\nRazonamiento automático \nd.\nProcesamiento del lenguaje natural \nLas respuestas correctas son: Procesamiento del lenguaje natural, Razonamiento automático\nAsocia las siguientes definiciones de IA con la categoría que le corresponde\n«La rama de la ciencia de la computación que se ocupa de la automatización de la conducta\ninteligente»\nSistemas que actúan racionalmente\n\n«El estudio de las facultades mentales mediante el uso de modelos computacionales»\nSistemas que piensan racionalmente\n\n«El arte de crear máquinas con capacidad de realizar funciones que realizadas por personas requieren\nde inteligencia»\nSistemas que actúan como humanos\n\nLa respuesta correcta es: «La rama de la ciencia de la computación que se ocupa de la automatización de la conducta inteligente» → Sistemas que\nactúan racionalmente, «El estudio de las facultades mentales mediante el uso de modelos computacionales» → Sistemas que piensan racionalmente, «El\narte de crear máquinas con capacidad de realizar funciones que realizadas por personas requieren de inteligencia» → Sistemas que actúan como\nhumanos\n14/12/25, 20:40\nC1 - Cuestionario tema de introducción: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1245842&cmid=3422319\n1/5",
+        "pages": [
+          0
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q3",
+      "number": 3,
+      "kind": "unknown",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "assets": []
+      },
+      "grading": null,
+      "content": {},
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "pages": [
+          1
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q4",
+      "number": 4,
+      "kind": "unknown",
+      "stem": {
+        "text": "Parcialmente correcta\nSe puntúa 0,67 sobre 1,00",
+        "assets": []
+      },
+      "grading": null,
+      "content": {},
+      "raw": {
+        "block_text": "Parcialmente correcta\nSe puntúa 0,67 sobre 1,00",
+        "pages": [
+          1
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q5",
+      "number": 5,
+      "kind": "matching",
+      "stem": {
+        "text": "Parcialmente correcta\nSe puntúa 0,88 sobre 1,00\nAsocia las siguientes etapas de la IA con el periodo temporal en el que tuvieron lugar\nLa dosis de realidad, los años difíciles\n1966-1974\n\nLa IA se convierte en industria - explotación comercial\n1980-1988\n\nEntusiasmo inicial, grandes esperanzas\n1952-1969\n\nSistemas expertos y basados en el conocimiento\n1969-1979\n\nLa respuesta correcta es: La dosis de realidad, los años difíciles → 1966-1974, La IA se convierte en industria - explotación comercial → 1980-1988,\nEntusiasmo inicial, grandes esperanzas → 1952-1969, Sistemas expertos y basados en el conocimiento → 1969-1979\nUn agente interacciona con el\nentorno\n a través de sus sensores con los que recibe\nentradas sensibles\n y sus efectores con los\nque ejecuta\nacciones\n.\nCompleta la siguiente tabla con dos ejemplos de agentes, de sus percepciones, acciones y metas, y del ambiente en que se desenvuelven\nTipo de\nagente\nRobot clasificador de partes\nSistema para diagnósticos médicos\n\nPercepciones\nPíxeles de intensidad y colores diversos\n\nSíntomas, evidencias y respuestas del paciente\n\nAcciones\nRecoger partes y clasificarlas poniéndolas en botes\n\nPreguntas, análisis clínicos, tratamientos\n\nMetas\nClasificación correcta\n\nPaciente saludable, reducción al mínimo el coste en pruebas diagnósticas y\ntratamientos\nAmbiente\nBanda transportadora sobre la que se encuentran las partes\n\nPaciente, hospital\n\n14/12/25, 20:40\nC1 - Cuestionario tema de introducción: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1245842&cmid=3422319\n2/5",
+        "assets": []
+      },
+      "grading": null,
+      "content": {},
+      "raw": {
+        "block_text": "Parcialmente correcta\nSe puntúa 0,88 sobre 1,00\nAsocia las siguientes etapas de la IA con el periodo temporal en el que tuvieron lugar\nLa dosis de realidad, los años difíciles\n1966-1974\n\nLa IA se convierte en industria - explotación comercial\n1980-1988\n\nEntusiasmo inicial, grandes esperanzas\n1952-1969\n\nSistemas expertos y basados en el conocimiento\n1969-1979\n\nLa respuesta correcta es: La dosis de realidad, los años difíciles → 1966-1974, La IA se convierte en industria - explotación comercial → 1980-1988,\nEntusiasmo inicial, grandes esperanzas → 1952-1969, Sistemas expertos y basados en el conocimiento → 1969-1979\nUn agente interacciona con el\nentorno\n a través de sus sensores con los que recibe\nentradas sensibles\n y sus efectores con los\nque ejecuta\nacciones\n.\nCompleta la siguiente tabla con dos ejemplos de agentes, de sus percepciones, acciones y metas, y del ambiente en que se desenvuelven\nTipo de\nagente\nRobot clasificador de partes\nSistema para diagnósticos médicos\n\nPercepciones\nPíxeles de intensidad y colores diversos\n\nSíntomas, evidencias y respuestas del paciente\n\nAcciones\nRecoger partes y clasificarlas poniéndolas en botes\n\nPreguntas, análisis clínicos, tratamientos\n\nMetas\nClasificación correcta\n\nPaciente saludable, reducción al mínimo el coste en pruebas diagnósticas y\ntratamientos\nAmbiente\nBanda transportadora sobre la que se encuentran las partes\n\nPaciente, hospital\n\n14/12/25, 20:40\nC1 - Cuestionario tema de introducción: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1245842&cmid=3422319\n2/5",
+        "pages": [
+          1
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q6",
+      "number": 6,
+      "kind": "unknown",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "assets": []
+      },
+      "grading": null,
+      "content": {},
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "pages": [
+          2
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q7",
+      "number": 7,
+      "kind": "unknown",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "assets": []
+      },
+      "grading": null,
+      "content": {},
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "pages": [
+          2
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q8",
+      "number": 8,
+      "kind": "matching",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\nSe tiene una neurona de McCulloch-Pitts con dos entradas x1 y x2. Teniendo en cuenta el funcionamiento de este tipo de neuronas, ¿para qué valores\nde pesos y umbral la neurona realiza una función OR?\na.\ntheta=0.25, w1=0.5, w2=0.5 \nEfectivamente, sólo la combinación de entradas x1=0, x2=0 hace que la neurona no se active\nb.\ntheta=0.2,\nw1=0.3,\nw2=0.4\n\nEfectivamente, sólo la combinación de entradas x1=0, x2=0 hace que la neurona se quede por debajo del umbral, para\ncualquier otra combinación el umbral se supera, con lo que la neurona se activará, es decir, se activa cuando alguna de las\nentradas es 1, o lo son las dos, procesando efectivamente la función OR\nc.\ntheta=-0.5, w1=0.2, w2=0.2\nd.\nNinguna respuesta es correcta, esta función no puede ser procesada por este modelo\nLas respuestas correctas son: theta=0.2, w1=0.3, w2=0.4, theta=0.25, w1=0.5, w2=0.5\nSeleccione una o más de una:\nSe tiene una neurona de McCulloch-Pitts con dos entradas x1 y x2. Teniendo en cuenta el funcionamiento de este tipo de neuronas, ¿para qué valores\nde pesos y umbral la neurona realiza una función XOR?\na.\ntheta=0.2, w1=0.3, w2=0.4\nb.\ntheta=0.25, w1=0.5, w2=0.5\nc.\ntheta=-0.5, w1=0.2, w2=0.2\nd.\nNinguna respuesta es correcta, esta función no\npuede ser procesada por este modelo\n\nNo existe ninguna combinación de valores para los pesos y el umbral que consiga que\nuna neurona de McCulloch-Pitss procese esta función lógica.\nLa respuesta correcta es: Ninguna respuesta es correcta, esta función no puede ser procesada por este modelo\nSe tiene una neurona de McCulloch-Pitts con dos entradas x1 y x2. Asociar las siguientes combinaciones de pesos y umbrales con la función lógica que\npermiten procesar.\ntheta=0.4, w1=0.6, w2=-0.3\nx1 AND (NOT x2)\n\ntheta=-0.75, w1=-0.5, w2=-0.5\nNOT(x1 AND x2)\n\nLa respuesta correcta es: theta=0.4, w1=0.6, w2=-0.3 → x1 AND (NOT x2), theta=-0.75, w1=-0.5, w2=-0.5 → NOT(x1 AND x2)\n14/12/25, 20:40\nC1 - Cuestionario tema de introducción: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1245842&cmid=3422319\n3/5",
+        "assets": []
+      },
+      "grading": null,
+      "content": {},
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\nSe tiene una neurona de McCulloch-Pitts con dos entradas x1 y x2. Teniendo en cuenta el funcionamiento de este tipo de neuronas, ¿para qué valores\nde pesos y umbral la neurona realiza una función OR?\na.\ntheta=0.25, w1=0.5, w2=0.5 \nEfectivamente, sólo la combinación de entradas x1=0, x2=0 hace que la neurona no se active\nb.\ntheta=0.2,\nw1=0.3,\nw2=0.4\n\nEfectivamente, sólo la combinación de entradas x1=0, x2=0 hace que la neurona se quede por debajo del umbral, para\ncualquier otra combinación el umbral se supera, con lo que la neurona se activará, es decir, se activa cuando alguna de las\nentradas es 1, o lo son las dos, procesando efectivamente la función OR\nc.\ntheta=-0.5, w1=0.2, w2=0.2\nd.\nNinguna respuesta es correcta, esta función no puede ser procesada por este modelo\nLas respuestas correctas son: theta=0.2, w1=0.3, w2=0.4, theta=0.25, w1=0.5, w2=0.5\nSeleccione una o más de una:\nSe tiene una neurona de McCulloch-Pitts con dos entradas x1 y x2. Teniendo en cuenta el funcionamiento de este tipo de neuronas, ¿para qué valores\nde pesos y umbral la neurona realiza una función XOR?\na.\ntheta=0.2, w1=0.3, w2=0.4\nb.\ntheta=0.25, w1=0.5, w2=0.5\nc.\ntheta=-0.5, w1=0.2, w2=0.2\nd.\nNinguna respuesta es correcta, esta función no\npuede ser procesada por este modelo\n\nNo existe ninguna combinación de valores para los pesos y el umbral que consiga que\nuna neurona de McCulloch-Pitss procese esta función lógica.\nLa respuesta correcta es: Ninguna respuesta es correcta, esta función no puede ser procesada por este modelo\nSe tiene una neurona de McCulloch-Pitts con dos entradas x1 y x2. Asociar las siguientes combinaciones de pesos y umbrales con la función lógica que\npermiten procesar.\ntheta=0.4, w1=0.6, w2=-0.3\nx1 AND (NOT x2)\n\ntheta=-0.75, w1=-0.5, w2=-0.5\nNOT(x1 AND x2)\n\nLa respuesta correcta es: theta=0.4, w1=0.6, w2=-0.3 → x1 AND (NOT x2), theta=-0.75, w1=-0.5, w2=-0.5 → NOT(x1 AND x2)\n14/12/25, 20:40\nC1 - Cuestionario tema de introducción: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1245842&cmid=3422319\n3/5",
+        "pages": [
+          2
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q9",
+      "number": 9,
+      "kind": "unknown",
+      "stem": {
+        "text": "Parcialmente correcta\nSe puntúa 0,50 sobre 1,00",
+        "assets": []
+      },
+      "grading": null,
+      "content": {},
+      "raw": {
+        "block_text": "Parcialmente correcta\nSe puntúa 0,50 sobre 1,00",
+        "pages": [
+          3
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q10",
+      "number": 10,
+      "kind": "unknown",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "assets": []
+      },
+      "grading": null,
+      "content": {},
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "pages": [
+          3
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q11",
+      "number": 11,
+      "kind": "matching",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSe tiene una neurona de McCulloch-Pitts con dos entradas x1 y x2. Asociar las siguientes combinaciones de pesos y umbrales con la función lógica que\npermiten procesar.\ntheta=-0.1, w1=-0.2, w2=-0.3\nx2 NOR x2\n\ntheta=0.4, w1=0.3, w2=0.2\nx1 AND x2\n\nLa respuesta correcta es: theta=-0.1, w1=-0.2, w2=-0.3 → x1 NOR x2, theta=0.4, w1=0.3, w2=0.2 → x1 AND x2\nLas siguientes descripciones ¿con qué tipo de ambiente se corresponden?\nEl ambiente no compite en contra de los objetivos del agente\nAmbiente benigno\n\nLas decisiones del agente en la solución de una instancia de un problema pueden afectar a la solución de\nproblemas futuros.\nAmbiente secuencial\n\nLa respuesta correcta es: El ambiente no compite en contra de los objetivos del agente → Ambiente benigno, Las decisiones del agente en la solución de\nuna instancia de un problema pueden afectar a la solución de problemas futuros. → Ambiente secuencial\nLas siguientes descripciones ¿con qué tipo de ambiente se corresponden?\nLos sensores del agente pueden tomar un conjunto ilimitado de valores.\nAmbiente continuo\n\nSi existe una cantidad limitada de percepciones y acciones distintas y claramente discernibles\nAmbiente discreto\n\nLa respuesta correcta es: Los sensores del agente pueden tomar un conjunto ilimitado de valores. → Ambiente continuo, Si existe una cantidad limitada\nde percepciones y acciones distintas y claramente discernibles → Ambiente discreto\n14/12/25, 20:40\nC1 - Cuestionario tema de introducción: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1245842&cmid=3422319\n4/5",
+        "assets": []
+      },
+      "grading": null,
+      "content": {},
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSe tiene una neurona de McCulloch-Pitts con dos entradas x1 y x2. Asociar las siguientes combinaciones de pesos y umbrales con la función lógica que\npermiten procesar.\ntheta=-0.1, w1=-0.2, w2=-0.3\nx2 NOR x2\n\ntheta=0.4, w1=0.3, w2=0.2\nx1 AND x2\n\nLa respuesta correcta es: theta=-0.1, w1=-0.2, w2=-0.3 → x1 NOR x2, theta=0.4, w1=0.3, w2=0.2 → x1 AND x2\nLas siguientes descripciones ¿con qué tipo de ambiente se corresponden?\nEl ambiente no compite en contra de los objetivos del agente\nAmbiente benigno\n\nLas decisiones del agente en la solución de una instancia de un problema pueden afectar a la solución de\nproblemas futuros.\nAmbiente secuencial\n\nLa respuesta correcta es: El ambiente no compite en contra de los objetivos del agente → Ambiente benigno, Las decisiones del agente en la solución de\nuna instancia de un problema pueden afectar a la solución de problemas futuros. → Ambiente secuencial\nLas siguientes descripciones ¿con qué tipo de ambiente se corresponden?\nLos sensores del agente pueden tomar un conjunto ilimitado de valores.\nAmbiente continuo\n\nSi existe una cantidad limitada de percepciones y acciones distintas y claramente discernibles\nAmbiente discreto\n\nLa respuesta correcta es: Los sensores del agente pueden tomar un conjunto ilimitado de valores. → Ambiente continuo, Si existe una cantidad limitada\nde percepciones y acciones distintas y claramente discernibles → Ambiente discreto\n14/12/25, 20:40\nC1 - Cuestionario tema de introducción: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1245842&cmid=3422319\n4/5",
+        "pages": [
+          3
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q12",
+      "number": 12,
+      "kind": "unknown",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nLas siguientes descripciones ¿con qué tipo de ambiente se corresponden?\nEl aparato sensorial de un agente le permite tener acceso al estado total del ambiente.\nAmbiente accesible\n\nLa experiencia del agente se divide en 'episodios'. Los episodios subsecuentes no dependerán de las acciones\nproducidas en episodios anteriores.\nAmbiente episódico\n\nLa respuesta correcta es: El aparato sensorial de un agente le permite tener acceso al estado total del ambiente. → Ambiente accesible, La experiencia\ndel agente se divide en 'episodios'. Los episodios subsecuentes no dependerán de las acciones producidas en episodios anteriores. → Ambiente\nepisódico\n14/12/25, 20:40\nC1 - Cuestionario tema de introducción: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1245842&cmid=3422319\n5/5",
+        "assets": []
+      },
+      "grading": null,
+      "content": {},
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nLas siguientes descripciones ¿con qué tipo de ambiente se corresponden?\nEl aparato sensorial de un agente le permite tener acceso al estado total del ambiente.\nAmbiente accesible\n\nLa experiencia del agente se divide en 'episodios'. Los episodios subsecuentes no dependerán de las acciones\nproducidas en episodios anteriores.\nAmbiente episódico\n\nLa respuesta correcta es: El aparato sensorial de un agente le permite tener acceso al estado total del ambiente. → Ambiente accesible, La experiencia\ndel agente se divide en 'episodios'. Los episodios subsecuentes no dependerán de las acciones producidas en episodios anteriores. → Ambiente\nepisódico\n14/12/25, 20:40\nC1 - Cuestionario tema de introducción: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1245842&cmid=3422319\n5/5",
+        "pages": [
+          4
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    }
+  ],
+  "issues": []
+}
