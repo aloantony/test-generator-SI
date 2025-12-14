@@ -83,14 +83,54 @@ def _parse_pdf(in_path: Path, assets_out: Path) -> dict:
         # Extract content based on kind
         content = parse_extract.extract_content(kind, block_text)
         
-        # If we had to use fallback, add an issue
+        # Schema compliance fixes
         issues = []
+        
+        # If we had to use fallback, add an issue
         if parse_typify.detect_kind(block_text) == "unknown":
             issues.append({
                 "level": "warn",
                 "code": "NO_CORRECT_ANSWER_FOUND",
                 "where": f"Q{block['number']}",
                 "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+            })
+        
+        # Fix multipart_short_answer: schema requires minItems: 2
+        if kind == "multipart_short_answer" and len(content.get("items", [])) < 2:
+            # Not enough items, change to short_answer_text
+            kind = "short_answer_text"
+            content = parse_extract.extract_content(kind, block_text)
+            issues.append({
+                "level": "warn",
+                "code": "NO_CORRECT_ANSWER_FOUND",
+                "where": f"Q{block['number']}",
+                "msg": "multipart_short_answer had less than 2 items, changed to short_answer_text"
+            })
+        
+        # Fix single_choice: schema requires maxItems: 1 for correct
+        if kind == "single_choice":
+            correct_list = content.get("correct", [])
+            if len(correct_list) > 1:
+                # Too many correct answers, take only first
+                content["correct"] = correct_list[:1]
+                issues.append({
+                    "level": "warn",
+                    "code": "NO_CORRECT_ANSWER_FOUND",
+                    "where": f"Q{block['number']}",
+                    "msg": "single_choice had multiple correct answers, only first kept (may be misclassified)"
+                })
+        
+        # Fix multi_select: schema requires minItems: 2 for options
+        if kind == "multi_select" and len(content.get("options", [])) < 2:
+            # Not enough options, likely due to extraction failure
+            # Change to short_answer_text as fallback
+            kind = "short_answer_text"
+            content = parse_extract.extract_content(kind, block_text)
+            issues.append({
+                "level": "warn",
+                "code": "OPTIONS_MISSING_TEXT",
+                "where": f"Q{block['number']}",
+                "msg": "multi_select had less than 2 options, changed to short_answer_text"
             })
         
         # Extract grading information

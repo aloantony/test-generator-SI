@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "C3_Cuestionario_ejercicio_sobre_la_b├║squeda_A_Revisi├│n_del_intento.pdf",
+    "doc_type": "moodle_attempt_review",
+    "page_count": 3
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "number": 1,
+      "kind": "multipart_short_answer",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nNodo\nh\nConectado con\nS\n40\nC(10) D(20) E(20)\nA\n5\nG(30)\nB\n8\nA(1)\nC\n20\nB(18) D(8)\nD\n9\nA(12) E(10) F(20)\nE\n40\n---\nF\n22\nG(35)\nG\n0\n---\nDado el siguiente grafo, hacer la traza del algoritmo A* para encontrar el camino del nodo S al\nnodo G y responder a las preguntas que se plantean más abajo.\n1. ¿Cuál es el valor de la función\npara el nodo D?\n9\n\n2. ¿Cuál es el coste asociado al arco que va de C a D?\n8\n\n3. ¿En cuantas ocasiones un nodo de CERRADOS se pasa ABIERTOS?\n2\n\n4. ¿En cuantas ocasiones se actualiza la información de un nodo en ABIERTOS?\n3\n\n5. ¿En cuantas ocasiones se descarta un nodo de SUCESORES porque el camino previo era ya\nmejor?\n2\n\n6. ¿Cuál es el máximo número de elementos que llega a haber en la lista ABIERTOS?\n5\n\n7. ¿Cuál es el camino solución óptimo?\nS, C, B, A, G\n\n8. ¿Cuál es el coste del camino solución óptimo?\n59\n\n9. ¿Con qué valores de las funciones\ny\ntermina el nodo A en CERRADOS? f:\n34\n,\ng:\n29\n\n10. ¿Cuál es el primer padre que se asigna al nodo A (el padre la primera vez que A aparece en\nsucesores)?\nD\n\n14/12/25, 20:21\nC3 - Cuestionario/ejercicio sobre la búsqueda A*: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253420&cmid=3422376\n2/3\n14/12/25, 20:21\nC3 - Cuestionario/ejercicio sobre la búsqueda A*: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253420&cmid=3422376\n3/3",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 1,
+            "bbox": null,
+            "file": "Q1/page_1.png"
+          },
+          {
+            "type": "full_page",
+            "page": 2,
+            "bbox": null,
+            "file": "Q1/page_2.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "items": [
+          {
+            "index": 1,
+            "prompt": "¿Cuál es el valor de la función\npara el nodo D?\n9\n",
+            "expected": null,
+            "user": null,
+            "subitems": []
+          },
+          {
+            "index": 2,
+            "prompt": "¿Cuál es el coste asociado al arco que va de C a D?\n8\n",
+            "expected": null,
+            "user": null,
+            "subitems": []
+          },
+          {
+            "index": 3,
+            "prompt": "¿En cuantas ocasiones un nodo de CERRADOS se pasa ABIERTOS?\n2\n",
+            "expected": null,
+            "user": null,
+            "subitems": []
+          },
+          {
+            "index": 4,
+            "prompt": "¿En cuantas ocasiones se actualiza la información de un nodo en ABIERTOS?\n3\n",
+            "expected": null,
+            "user": null,
+            "subitems": []
+          },
+          {
+            "index": 5,
+            "prompt": "¿En cuantas ocasiones se descarta un nodo de SUCESORES porque el camino previo era ya\nmejor?\n2\n",
+            "expected": null,
+            "user": null,
+            "subitems": []
+          },
+          {
+            "index": 6,
+            "prompt": "¿Cuál es el máximo número de elementos que llega a haber en la lista ABIERTOS?\n5\n",
+            "expected": null,
+            "user": null,
+            "subitems": []
+          },
+          {
+            "index": 7,
+            "prompt": "¿Cuál es el camino solución óptimo?\nS, C, B, A, G\n",
+            "expected": null,
+            "user": null,
+            "subitems": []
+          },
+          {
+            "index": 8,
+            "prompt": "¿Cuál es el coste del camino solución óptimo?\n59\n",
+            "expected": null,
+            "user": null,
+            "subitems": []
+          },
+          {
+            "index": 9,
+            "prompt": "¿Con qué valores de las funciones\ny\ntermina el nodo A en CERRADOS? f:\n34\n,\ng:\n29\n",
+            "expected": null,
+            "user": null,
+            "subitems": [
+              {
+                "label": "f",
+                "expected": "34",
+                "user": null
+              },
+              {
+                "label": "g",
+                "expected": "29",
+                "user": null
+              }
+            ]
+          },
+          {
+            "index": 10,
+            "prompt": "¿Cuál es el primer padre que se asigna al nodo A (el padre la primera vez que A aparece en\nsucesores)?\nD\n\n14/12/25, 20:21\nC3 - Cuestionario/ejercicio sobre la búsqueda A*: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253420&cmid=3422376\n2/3\n14/12/25, 20:21\nC3 - Cuestionario/ejercicio sobre la búsqueda A*: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253420&cmid=3422376\n3/3",
+            "expected": null,
+            "user": null,
+            "subitems": [
+              {
+                "label": "s",
+                "expected": "//ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253420&cmid=3422376",
+                "user": null
+              },
+              {
+                "label": "s",
+                "expected": "//ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253420&cmid=3422376",
+                "user": null
+              }
+            ]
+          }
+        ]
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nNodo\nh\nConectado con\nS\n40\nC(10) D(20) E(20)\nA\n5\nG(30)\nB\n8\nA(1)\nC\n20\nB(18) D(8)\nD\n9\nA(12) E(10) F(20)\nE\n40\n---\nF\n22\nG(35)\nG\n0\n---\nDado el siguiente grafo, hacer la traza del algoritmo A* para encontrar el camino del nodo S al\nnodo G y responder a las preguntas que se plantean más abajo.\n1. ¿Cuál es el valor de la función\npara el nodo D?\n9\n\n2. ¿Cuál es el coste asociado al arco que va de C a D?\n8\n\n3. ¿En cuantas ocasiones un nodo de CERRADOS se pasa ABIERTOS?\n2\n\n4. ¿En cuantas ocasiones se actualiza la información de un nodo en ABIERTOS?\n3\n\n5. ¿En cuantas ocasiones se descarta un nodo de SUCESORES porque el camino previo era ya\nmejor?\n2\n\n6. ¿Cuál es el máximo número de elementos que llega a haber en la lista ABIERTOS?\n5\n\n7. ¿Cuál es el camino solución óptimo?\nS, C, B, A, G\n\n8. ¿Cuál es el coste del camino solución óptimo?\n59\n\n9. ¿Con qué valores de las funciones\ny\ntermina el nodo A en CERRADOS? f:\n34\n,\ng:\n29\n\n10. ¿Cuál es el primer padre que se asigna al nodo A (el padre la primera vez que A aparece en\nsucesores)?\nD\n\n14/12/25, 20:21\nC3 - Cuestionario/ejercicio sobre la búsqueda A*: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253420&cmid=3422376\n2/3\n14/12/25, 20:21\nC3 - Cuestionario/ejercicio sobre la búsqueda A*: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253420&cmid=3422376\n3/3",
+        "pages": [
+          1,
+          2
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    }
+  ],
+  "issues": []
+}

@@ -31,7 +31,10 @@ def extract_multipart_short_answer(block_text: str) -> Dict[str, Any]:
     matches = item_pattern.finditer(block_text)
     
     for match in matches:
+        # Schema requires index >= 1 (1-based, not 0-based)
         index = int(match.group(1))
+        if index < 1:
+            continue  # Skip invalid indices
         item_text = match.group(2).strip()
         
         # Try to extract prompt, expected, and user

@@ -1,0 +1,385 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "C2 - Cuestionario sobre b├║squeda en espacio de estados_ Revisi├│n del intento _ UBUVirtual.pdf",
+    "doc_type": "moodle_attempt_review",
+    "page_count": 8
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "number": 1,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nProblema bien definido: Es aquel en que para toda posible\nsolución\n existe\nun procedimiento\n que:\nPermite verificar automáticamente que se trata de una auténtica\nsolución\n.\nSi es una\nsolución\n, lo verifica en un número\nfinito\n de pasos.\n14/12/25, 20:39\nC2 - Cuestionario sobre búsqueda en espacio de estados: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253534&cmid=3422335\n1/8",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nProblema bien definido: Es aquel en que para toda posible\nsolución\n existe\nun procedimiento\n que:\nPermite verificar automáticamente que se trata de una auténtica\nsolución\n.\nSi es una\nsolución\n, lo verifica en un número\nfinito\n de pasos.\n14/12/25, 20:39\nC2 - Cuestionario sobre búsqueda en espacio de estados: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253534&cmid=3422335\n1/8",
+        "pages": [
+          0
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q1",
+          "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+        }
+      ]
+    },
+    {
+      "id": "Q2",
+      "number": 2,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nLos aspectos que hay que tener en cuenta a la hora de seleccionar la representación de los estados\nson:\nExpresividad:\ncapaz de representar cualquier posible configuración del problema.\n\nNaturalidad:\nrepresentación natural del problema.\n\nEficiencia\ncomputacional:\nejecución eficiente del código.\n\nConcisión:\nincluir sólo los aspectos importantes para la solución del problema.\n\nLa respuesta correcta es: Expresividad: → capaz de representar cualquier posible configuración del\nproblema., Naturalidad: → representación natural del problema., Eficiencia computacional: →\nejecución eficiente del código., Concisión: → incluir sólo los aspectos importantes para la solución\ndel problema.\n14/12/25, 20:39\nC2 - Cuestionario sobre búsqueda en espacio de estados: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253534&cmid=3422335\n2/8",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 1,
+            "bbox": null,
+            "file": "Q2/page_1.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [
+          "Expresividad: → capaz de representar cualquier posible configuración del"
+        ],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nLos aspectos que hay que tener en cuenta a la hora de seleccionar la representación de los estados\nson:\nExpresividad:\ncapaz de representar cualquier posible configuración del problema.\n\nNaturalidad:\nrepresentación natural del problema.\n\nEficiencia\ncomputacional:\nejecución eficiente del código.\n\nConcisión:\nincluir sólo los aspectos importantes para la solución del problema.\n\nLa respuesta correcta es: Expresividad: → capaz de representar cualquier posible configuración del\nproblema., Naturalidad: → representación natural del problema., Eficiencia computacional: →\nejecución eficiente del código., Concisión: → incluir sólo los aspectos importantes para la solución\ndel problema.\n14/12/25, 20:39\nC2 - Cuestionario sobre búsqueda en espacio de estados: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253534&cmid=3422335\n2/8",
+        "pages": [
+          1
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q2",
+          "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+        }
+      ]
+    },
+    {
+      "id": "Q3",
+      "number": 3,
+      "kind": "matching",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nAsocia las siguientes descripciones con el tipo de representación que describen\nEn estas representaciones cada estado del mundo se considera como\nuna caja negra sin estructura interna.\nAtómicas\n\nUn estado es un vector de valores de atributos (lógicos, enteros, reales\no valores de un conjunto discreto).\nFactorizadas\n\nUn estado incluye otros objetos que a su vez pueden tener sus propios\natributos, así como relaciones con otros objetos\nEstructuradas\n\nLa respuesta correcta es: En estas representaciones cada estado del mundo se considera como una\ncaja negra sin estructura interna. → Atómicas, Un estado es un vector de valores de atributos\n(lógicos, enteros, reales o valores de un conjunto discreto). → Factorizadas, Un estado incluye otros\nobjetos que a su vez pueden tener sus propios atributos, así como relaciones con otros objetos →\nEstructuradas\n14/12/25, 20:39\nC2 - Cuestionario sobre búsqueda en espacio de estados: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253534&cmid=3422335\n3/8",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "pairs_user": [],
+        "pairs_correct": [],
+        "domain_hint": "descripciones"
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nAsocia las siguientes descripciones con el tipo de representación que describen\nEn estas representaciones cada estado del mundo se considera como\nuna caja negra sin estructura interna.\nAtómicas\n\nUn estado es un vector de valores de atributos (lógicos, enteros, reales\no valores de un conjunto discreto).\nFactorizadas\n\nUn estado incluye otros objetos que a su vez pueden tener sus propios\natributos, así como relaciones con otros objetos\nEstructuradas\n\nLa respuesta correcta es: En estas representaciones cada estado del mundo se considera como una\ncaja negra sin estructura interna. → Atómicas, Un estado es un vector de valores de atributos\n(lógicos, enteros, reales o valores de un conjunto discreto). → Factorizadas, Un estado incluye otros\nobjetos que a su vez pueden tener sus propios atributos, así como relaciones con otros objetos →\nEstructuradas\n14/12/25, 20:39\nC2 - Cuestionario sobre búsqueda en espacio de estados: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253534&cmid=3422335\n3/8",
+        "pages": [
+          2
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q4",
+      "number": 4,
+      "kind": "single_choice",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una:\nSe tiene un problema de jarras con dos jarras de M y N litros respectivamente. Suponiendo que\ntanto N como M son números enteros, ¿cuál es el tamaño del espacio de estados de este problema\nde búsqueda?\na.\nmax(M, N)\nb.\n(MN)^t\nc.\n(M+1)\n(N+1)\n\nCorrecto. Una jarra puede tener M valores de contenido distintos o estar\nvacía. La otra jarra puede tener N valores de contenidos distintos o estar\nvacía. Así que el tamaño total es (M+1)(N+1).\nd.\nmin(M, N)\ne.\nMN\nf.\n2^(MN)\nLa respuesta correcta es: (M+1)(N+1)\n14/12/25, 20:39\nC2 - Cuestionario sobre búsqueda en espacio de estados: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253534&cmid=3422335\n4/8",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "options": [
+          {
+            "key": "a",
+            "text": "max(M, N)"
+          },
+          {
+            "key": "b",
+            "text": "(MN)^t"
+          },
+          {
+            "key": "c",
+            "text": "(M+1)\n(N+1)\n\nCorrecto. Una jarra puede tener M valores de contenido distintos o estar\nvacía. La otra jarra puede tener N valores de contenidos distintos o estar\nvacía. Así que el tamaño total es (M+1)(N+1)."
+          },
+          {
+            "key": "d",
+            "text": "min(M, N)"
+          },
+          {
+            "key": "e",
+            "text": "MN\nf.\n2^(MN)"
+          }
+        ],
+        "correct": [],
+        "user": []
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una:\nSe tiene un problema de jarras con dos jarras de M y N litros respectivamente. Suponiendo que\ntanto N como M son números enteros, ¿cuál es el tamaño del espacio de estados de este problema\nde búsqueda?\na.\nmax(M, N)\nb.\n(MN)^t\nc.\n(M+1)\n(N+1)\n\nCorrecto. Una jarra puede tener M valores de contenido distintos o estar\nvacía. La otra jarra puede tener N valores de contenidos distintos o estar\nvacía. Así que el tamaño total es (M+1)(N+1).\nd.\nmin(M, N)\ne.\nMN\nf.\n2^(MN)\nLa respuesta correcta es: (M+1)(N+1)\n14/12/25, 20:39\nC2 - Cuestionario sobre búsqueda en espacio de estados: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253534&cmid=3422335\n4/8",
+        "pages": [
+          3
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q5",
+      "number": 5,
+      "kind": "single_choice",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una:\nDeseamos conseguir que k robots salgan de un laberinto de tamaño M×N. ¿Cuál es el tamaño del\nespacio de estados de nuestro problema de búsqueda? (considerar que las acciones delos robots\nno dependen de su orientación y pueden moverse directamente al norte, sur, este y oeste)\na.\n2^(MN)\nb.\n2^(kMN)\nc.\nk^(MN)\nd.\n(MN)^k \ne.\nMN\nf.\nkMN\nLa respuesta correcta es: (MN)^k\n14/12/25, 20:39\nC2 - Cuestionario sobre búsqueda en espacio de estados: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253534&cmid=3422335\n5/8",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "options": [
+          {
+            "key": "a",
+            "text": "2^(MN)"
+          },
+          {
+            "key": "b",
+            "text": "2^(kMN)"
+          },
+          {
+            "key": "c",
+            "text": "k^(MN)"
+          },
+          {
+            "key": "d",
+            "text": "(MN)^k "
+          },
+          {
+            "key": "e",
+            "text": "MN\nf.\nkMN"
+          }
+        ],
+        "correct": [],
+        "user": []
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una:\nDeseamos conseguir que k robots salgan de un laberinto de tamaño M×N. ¿Cuál es el tamaño del\nespacio de estados de nuestro problema de búsqueda? (considerar que las acciones delos robots\nno dependen de su orientación y pueden moverse directamente al norte, sur, este y oeste)\na.\n2^(MN)\nb.\n2^(kMN)\nc.\nk^(MN)\nd.\n(MN)^k \ne.\nMN\nf.\nkMN\nLa respuesta correcta es: (MN)^k\n14/12/25, 20:39\nC2 - Cuestionario sobre búsqueda en espacio de estados: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253534&cmid=3422335\n5/8",
+        "pages": [
+          4
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q6",
+      "number": 6,
+      "kind": "multi_select",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\nDe las siguientes afirmaciones referidas al uso de las heurísticas, seleccionar las verdaderas\na.\nSi son adecuadas pueden reducir la explosión combinatoria que se produce en\nmuchos problemas.\n\nb.\nEl mayor problema de las heurísticas es que no son muy buenas en los peores casos, y\néstos son frecuentes en el mundo real.\nc.\nNo son adecuadas cuando lo que se busca es una buena aproximación.\nd.\nIntentar comprender por qué funciona una heurística, o por qué no lo hace,\nnormalmente sirve para profundizar en la comprensión del problema.\n\nLas respuestas correctas son: Si son adecuadas pueden reducir la explosión combinatoria que se\nproduce en muchos problemas., Intentar comprender por qué funciona una heurística, o por qué no\nlo hace, normalmente sirve para profundizar en la comprensión del problema.\n14/12/25, 20:39\nC2 - Cuestionario sobre búsqueda en espacio de estados: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253534&cmid=3422335\n6/8",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "options": [
+          {
+            "key": "a",
+            "text": "Si son adecuadas pueden reducir la explosión combinatoria que se produce en\nmuchos problemas.\n"
+          },
+          {
+            "key": "b",
+            "text": "El mayor problema de las heurísticas es que no son muy buenas en los peores casos, y\néstos son frecuentes en el mundo real."
+          },
+          {
+            "key": "c",
+            "text": "No son adecuadas cuando lo que se busca es una buena aproximación."
+          },
+          {
+            "key": "d",
+            "text": "Intentar comprender por qué funciona una heurística, o por qué no lo hace,\nnormalmente sirve para profundizar en la comprensión del problema.\n"
+          }
+        ],
+        "correct": [],
+        "user": []
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\nDe las siguientes afirmaciones referidas al uso de las heurísticas, seleccionar las verdaderas\na.\nSi son adecuadas pueden reducir la explosión combinatoria que se produce en\nmuchos problemas.\n\nb.\nEl mayor problema de las heurísticas es que no son muy buenas en los peores casos, y\néstos son frecuentes en el mundo real.\nc.\nNo son adecuadas cuando lo que se busca es una buena aproximación.\nd.\nIntentar comprender por qué funciona una heurística, o por qué no lo hace,\nnormalmente sirve para profundizar en la comprensión del problema.\n\nLas respuestas correctas son: Si son adecuadas pueden reducir la explosión combinatoria que se\nproduce en muchos problemas., Intentar comprender por qué funciona una heurística, o por qué no\nlo hace, normalmente sirve para profundizar en la comprensión del problema.\n14/12/25, 20:39\nC2 - Cuestionario sobre búsqueda en espacio de estados: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253534&cmid=3422335\n6/8",
+        "pages": [
+          5
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q7",
+      "number": 7,
+      "kind": "multi_select",
+      "stem": {
+        "text": "Parcialmente correcta\nSe puntúa 0,50 sobre 1,00\nSeleccione una o más de una:\nSeñalar las verdaderas\na.\nLa explosión combinatoria tiene lugar cuando el número de estados a considerar crece de\nmodo lineal con el número de reglas aplicadas.\nb.\nEs preferible ir en la dirección en que el factor de ramificación sea menor. \nc.\nLa búsqueda exhaustiva no utiliza ningún criterio para seleccionar una regla de entre las\naplicables.\nd.\nEn la búsqueda bidireccional se explora simultáneamente en las dos direcciones (hacia\ndelante y hacia atrás), es interesante incluso cuando no hay garantías de que las fronteras\nde exploración se encuentran.\nLas respuestas correctas son: Es preferible ir en la dirección en que el factor de ramificación sea\nmenor., La búsqueda exhaustiva no utiliza ningún criterio para seleccionar una regla de entre las\naplicables.\n14/12/25, 20:39\nC2 - Cuestionario sobre búsqueda en espacio de estados: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253534&cmid=3422335\n7/8",
+        "assets": []
+      },
+      "grading": {
+        "status": "Parcialmente correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "options": [
+          {
+            "key": "a",
+            "text": "La explosión combinatoria tiene lugar cuando el número de estados a considerar crece de\nmodo lineal con el número de reglas aplicadas."
+          },
+          {
+            "key": "b",
+            "text": "Es preferible ir en la dirección en que el factor de ramificación sea menor. "
+          },
+          {
+            "key": "c",
+            "text": "La búsqueda exhaustiva no utiliza ningún criterio para seleccionar una regla de entre las\naplicables."
+          },
+          {
+            "key": "d",
+            "text": "En la búsqueda bidireccional se explora simultáneamente en las dos direcciones (hacia\ndelante y hacia atrás), es interesante incluso cuando no hay garantías de que las fronteras\nde exploración se encuentran."
+          }
+        ],
+        "correct": [],
+        "user": []
+      },
+      "raw": {
+        "block_text": "Parcialmente correcta\nSe puntúa 0,50 sobre 1,00\nSeleccione una o más de una:\nSeñalar las verdaderas\na.\nLa explosión combinatoria tiene lugar cuando el número de estados a considerar crece de\nmodo lineal con el número de reglas aplicadas.\nb.\nEs preferible ir en la dirección en que el factor de ramificación sea menor. \nc.\nLa búsqueda exhaustiva no utiliza ningún criterio para seleccionar una regla de entre las\naplicables.\nd.\nEn la búsqueda bidireccional se explora simultáneamente en las dos direcciones (hacia\ndelante y hacia atrás), es interesante incluso cuando no hay garantías de que las fronteras\nde exploración se encuentran.\nLas respuestas correctas son: Es preferible ir en la dirección en que el factor de ramificación sea\nmenor., La búsqueda exhaustiva no utiliza ningún criterio para seleccionar una regla de entre las\naplicables.\n14/12/25, 20:39\nC2 - Cuestionario sobre búsqueda en espacio de estados: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253534&cmid=3422335\n7/8",
+        "pages": [
+          6
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q8",
+      "number": 8,
+      "kind": "numeric",
+      "stem": {
+        "text": "Incorrecta\nSe puntúa 0,00 sobre 1,00\nRecuerda el micromundo de la aspiradora. En la situación con sensores y éxito seguro en las\nacciones se tenía el siguiente espacio de estados con 8 estados posibles:\nAhora considera la situación en la que no se tienen sensores y en la que la probabilidad de éxito de\nlas acciones es:\naspirar: 0.6\nmover a la izquierda: 0.7\nmover a la derecha: 0.8\nSi se parte de una configuración con las siguientes probabilidades de estar en cada uno de los 8\nestados:\n1: 0.025, 2: 0.225, 3: 0.025, 4: 0.225,\n5: 0.025, 6: 0.225, 7: 0.025, 8: 0.225,\n¿Qué probabilidad habría de estar en el estado 7 tras ejecutar la acción «moverse a la izquierda»?\n(usa la coma en vez del punto para separar los decimales y redondea la respuesta a 3 decimales).\nRespuesta:\n0,165\n\nLa respuesta correcta es: 0,182\n14/12/25, 20:39\nC2 - Cuestionario sobre búsqueda en espacio de estados: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253534&cmid=3422335\n8/8",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 7,
+            "bbox": null,
+            "file": "Q8/page_7.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Incorrecta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [
+          "0,182"
+        ],
+        "user": "0,165",
+        "numeric_format": {
+          "decimal_separator": ",",
+          "round_decimals": null,
+          "tolerance": null
+        }
+      },
+      "raw": {
+        "block_text": "Incorrecta\nSe puntúa 0,00 sobre 1,00\nRecuerda el micromundo de la aspiradora. En la situación con sensores y éxito seguro en las\nacciones se tenía el siguiente espacio de estados con 8 estados posibles:\nAhora considera la situación en la que no se tienen sensores y en la que la probabilidad de éxito de\nlas acciones es:\naspirar: 0.6\nmover a la izquierda: 0.7\nmover a la derecha: 0.8\nSi se parte de una configuración con las siguientes probabilidades de estar en cada uno de los 8\nestados:\n1: 0.025, 2: 0.225, 3: 0.025, 4: 0.225,\n5: 0.025, 6: 0.225, 7: 0.025, 8: 0.225,\n¿Qué probabilidad habría de estar en el estado 7 tras ejecutar la acción «moverse a la izquierda»?\n(usa la coma en vez del punto para separar los decimales y redondea la respuesta a 3 decimales).\nRespuesta:\n0,165\n\nLa respuesta correcta es: 0,182\n14/12/25, 20:39\nC2 - Cuestionario sobre búsqueda en espacio de estados: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1253534&cmid=3422335\n8/8",
+        "pages": [
+          7
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    }
+  ],
+  "issues": []
+}

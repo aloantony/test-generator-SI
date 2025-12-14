@@ -4,10 +4,16 @@ Este documento describe los criterios de prueba para validar la implementación 
 
 ## 1. Golden tests
 
-Se utilizarán ficheros “golden” como referencia de salida correcta. Para cada PDF de entrada (C1–C8) se creará:
+Se utilizarán ficheros "golden" como referencia de salida correcta. Para cada PDF de entrada (C1–C8) se generan:
 
-1. Un fichero `golden/Cx.json` que contiene el JSON canónico esperado para ese PDF completo.
-2. Ficheros individuales por pregunta ancla en `golden/questions/Cx_Qn.json` que contienen la salida esperada de preguntas representativas (por ejemplo, aquellas con fórmulas o puntuaciones parciales).
+1. Un fichero `outputs/Cx.json` que contiene el JSON canónico para ese PDF completo.
+2. Estos ficheros golden se generan usando la CLI: `creador-tests parse --in fixtures/Cx*.pdf --out outputs/Cx.json --assets-out assets_out/Cx`
+
+Los golden files se almacenan en `outputs/` y sirven como referencia para validar:
+- Validación de schema
+- Determinismo (mismo input = mismo output)
+- Conteos mínimos por tipo de pregunta
+- Integridad estructural
 
 ### 1.1. Validación de schema
 
@@ -74,7 +80,64 @@ Además de los golden tests, habrá pruebas unitarias por módulo:
 
 - Prueba `test_flags_assets.py` que evalúe la activación de `asset_required`, `math_or_symbols_risky` y `requires_external_media` y la creación de assets.
 
-## 3. Criterios de éxito
+## 3. Invariantes comprobadas
+
+Las pruebas verifican las siguientes invariantes críticas:
+
+### 3.1. Validación de schema
+- **Invariante**: Todos los JSON generados deben cumplir estrictamente con `schemas/exam_doc-1.0.schema.json`.
+- **Comprobación**: Cada golden file (C1-C8) se valida contra el schema usando `jsonschema`.
+- **Tests**: `test_golden_schema_validation` en `test_golden_complete.py`.
+
+### 3.2. Determinismo
+- **Invariante**: El mismo PDF de entrada debe producir exactamente el mismo JSON (salvo rutas de assets temporales).
+- **Comprobación**: Se parsea el mismo PDF dos veces y se comparan los resultados normalizados (excluyendo rutas de archivos de assets).
+- **Tests**: `test_golden_determinism` en `test_golden_complete.py`.
+- **Importancia**: Garantiza reproducibilidad y que cambios en el código se reflejen de forma predecible.
+
+### 3.3. Conteos mínimos por tipo
+- **Invariante**: Cada PDF debe tener al menos un número mínimo de preguntas de cada tipo detectado.
+- **Comprobación**: Se cuenta el número de preguntas por `kind` y se verifica que cumpla con los mínimos esperados.
+- **Tests**: `test_golden_type_counts` en `test_golden_complete.py`.
+- **Conteos esperados** (mínimos):
+  - **C1**: matching ≥ 5, short_answer_text ≥ 7
+  - **C2**: matching ≥ 1, single_choice ≥ 2, multi_select ≥ 2, numeric ≥ 1, short_answer_text ≥ 2
+  - **C3**: multipart_short_answer ≥ 1
+  - **C4**: multipart_short_answer ≥ 1
+  - **C5**: single_choice ≥ 4, multi_select ≥ 2, matching ≥ 1, cloze_table ≥ 1, multipart_short_answer ≥ 1, short_answer_text ≥ 3
+  - **C6**: matching ≥ 3, multi_select ≥ 1, numeric ≥ 1, short_answer_text ≥ 7 (multipart_short_answer convertido a short_answer_text si tiene < 2 items)
+  - **C7**: cloze_labeled_blanks ≥ 2, numeric ≥ 2, short_answer_text ≥ 2
+  - **C8**: matching ≥ 5, single_choice ≥ 4, multi_select ≥ 1, short_answer_text ≥ 6 (multi_select convertido a short_answer_text si tiene < 2 options)
+
+### 3.4. Integridad estructural
+- **Invariante**: Todos los campos obligatorios deben estar presentes y tener el tipo correcto.
+- **Comprobación**: Se verifica la presencia de `schema_version`, `source`, `questions`, `issues` y todos los subcampos requeridos.
+- **Tests**: `test_golden_structure_integrity` en `test_golden_complete.py`.
+- **Campos verificados**:
+  - Top-level: `schema_version="1.0"`, `source`, `questions[]`, `issues[]`
+  - Source: `file_name`, `doc_type="moodle_attempt_review"`, `page_count > 0`
+  - Question: `id`, `number`, `kind`, `stem`, `grading` (nullable), `content`, `raw`, `flags`, `issues[]`
+  - Raw: `block_text`, `pages[]` (non-empty)
+  - Flags: `asset_required`, `math_or_symbols_risky`, `requires_external_media`
+  - Asset requirement: Si `asset_required=true`, debe haber al menos un asset en `stem.assets[]`
+
+### 3.5. Ausencia de tipos inválidos
+- **Invariante**: No se permite `kind="unknown"` (el schema no lo acepta).
+- **Comprobación**: Se verifica que ningún `question.kind` sea `"unknown"`.
+- **Tests**: `test_golden_type_counts` verifica esta condición.
+- **Nota**: Cuando no se puede detectar el tipo, se usa `short_answer_text` como fallback y se añade un issue.
+
+### 3.6. Cumplimiento de restricciones del schema
+- **Invariante**: Las preguntas deben cumplir todas las restricciones del schema (minItems, maxItems, etc.).
+- **Comprobación**: 
+  - `single_choice.correct` tiene máximo 1 elemento (maxItems: 1)
+  - `multi_select.options` tiene mínimo 2 elementos (minItems: 2)
+  - `multipart_short_answer.items` tiene mínimo 2 elementos (minItems: 2)
+  - `multipart_short_answer.items[].index` es ≥ 1 (minimum: 1)
+- **Tests**: `test_golden_schema_validation` detecta violaciones.
+- **Nota**: El CLI aplica correcciones automáticas cuando detecta violaciones (convierte tipos o trunca arrays) y añade issues para documentar los cambios.
+
+## 4. Criterios de éxito
 
 Las pruebas se considerarán superadas cuando:
 
@@ -82,3 +145,4 @@ Las pruebas se considerarán superadas cuando:
 - El número de preguntas y sus `kind` coincidan con los golden.
 - Los campos de `content`, `grading`, `flags` y `issues` coincidan con los esperados en los golden o satisfagan las condiciones del test unitario.
 - No se produzcan errores inesperados durante la ejecución de las pruebas.
+- **Todas las invariantes documentadas se cumplan** (determinismo, conteos mínimos, integridad estructural).

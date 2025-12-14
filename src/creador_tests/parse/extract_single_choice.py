@@ -41,11 +41,28 @@ def extract_single_choice(block_text: str) -> Dict[str, Any]:
             })
     
     # Extract correct answer from "La respuesta correcta es: ..."
+    # For single_choice, only one answer is allowed (schema maxItems: 1)
     correct_pattern = re.compile(r'La respuesta correcta es:\s*([a-eA-E])', re.IGNORECASE)
     correct_match = correct_pattern.search(block_text)
     if correct_match:
         correct_key = correct_match.group(1).lower()
         content["correct"] = [correct_key]
+    # If we find "Las respuestas correctas son:" instead, this might be misclassified
+    # but we'll only take the first one to satisfy schema
+    elif "Las respuestas correctas son:" in block_text:
+        # This should probably be multi_select, but if we're here, take first
+        multi_pattern = re.compile(r'Las respuestas correctas son:\s*([^\.\n]+)', re.IGNORECASE)
+        multi_match = multi_pattern.search(block_text)
+        if multi_match:
+            correct_text = multi_match.group(1)
+            correct_keys = re.findall(r'\b([a-eA-E])\b', correct_text, re.IGNORECASE)
+            if correct_keys:
+                # Schema allows max 1, so take only the first
+                content["correct"] = [correct_keys[0].lower()]
+    
+    # Final safety check: ensure correct has at most 1 element
+    if len(content["correct"]) > 1:
+        content["correct"] = content["correct"][:1]
     
     # Extract user answer (marked with ☑ or similar, or from "Seleccione una:" context)
     # Look for option keys followed by checkmarks

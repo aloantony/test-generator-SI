@@ -1,0 +1,719 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "C8_Cuestionario_sobre_el_tema_de_l├│gica_Revisi├│n_del_intento_UBUVirtual.pdf",
+    "doc_type": "moodle_attempt_review",
+    "page_count": 16
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "number": 1,
+      "kind": "matching",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nAsocia las siguientes sentencias con el concepto con que se correspondan.\nNombre con el que se conoce a la regla de inferencia que\na partir de\ny\nobtiene\nModus ponens\n\nNombre con el que se conoce al axioma lógico\nIntroducción de la implicación\n\nNombre con el que se conoce al axioma lógico\nDistribución de la implicación\n\nLa respuesta correcta es: Nombre con el que se conoce a la regla de inferencia que a partir de\ny\nobtiene\n→ Modus ponens, Nombre con el que se conoce al axioma lógico\n→ Introducción de la implicación, Nombre con el que se conoce al axioma lógico\n→ Distribución de la implicación\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n1/16",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "pairs_user": [],
+        "pairs_correct": [],
+        "domain_hint": "sentencias"
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nAsocia las siguientes sentencias con el concepto con que se correspondan.\nNombre con el que se conoce a la regla de inferencia que\na partir de\ny\nobtiene\nModus ponens\n\nNombre con el que se conoce al axioma lógico\nIntroducción de la implicación\n\nNombre con el que se conoce al axioma lógico\nDistribución de la implicación\n\nLa respuesta correcta es: Nombre con el que se conoce a la regla de inferencia que a partir de\ny\nobtiene\n→ Modus ponens, Nombre con el que se conoce al axioma lógico\n→ Introducción de la implicación, Nombre con el que se conoce al axioma lógico\n→ Distribución de la implicación\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n1/16",
+        "pages": [
+          0
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q2",
+      "number": 2,
+      "kind": "matching",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nAsocia las siguientes sentencias con el concepto con que se correspondan.\nSe dice de la fórmula que no tiene ningún modelo\nInconsistente\n\nSe dice de la fórmula que es cierta para toda\ninterpretación posible\nTautológica\n\nSe aplica a las fórmulas F1, F2, …, Fn de las que deriva\nuna fórmula G\nPremisas\n\nLa respuesta correcta es: Se dice de la fórmula que no tiene ningún modelo → Inconsistente, Se dice\nde la fórmula que es cierta para toda interpretación posible → Tautológica, Se aplica a las fórmulas\nF1, F2, …, Fn de las que deriva una fórmula G → Premisas\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n2/16",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "pairs_user": [],
+        "pairs_correct": [],
+        "domain_hint": "sentencias"
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nAsocia las siguientes sentencias con el concepto con que se correspondan.\nSe dice de la fórmula que no tiene ningún modelo\nInconsistente\n\nSe dice de la fórmula que es cierta para toda\ninterpretación posible\nTautológica\n\nSe aplica a las fórmulas F1, F2, …, Fn de las que deriva\nuna fórmula G\nPremisas\n\nLa respuesta correcta es: Se dice de la fórmula que no tiene ningún modelo → Inconsistente, Se dice\nde la fórmula que es cierta para toda interpretación posible → Tautológica, Se aplica a las fórmulas\nF1, F2, …, Fn de las que deriva una fórmula G → Premisas\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n2/16",
+        "pages": [
+          1
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q3",
+      "number": 3,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "pages": [
+          2
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q3",
+          "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+        }
+      ]
+    },
+    {
+      "id": "Q4",
+      "number": 4,
+      "kind": "matching",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nAsocia las siguientes sentencias con el concepto con que se correspondan.\nSe dice de la variable que no tiene ocurrencias ligadas\nLibre\n\nSe dice de las fórmulas que tienen los mismos valores de verdad\npara toda interpretación\nEquivalentes\n\nSe dice de la fórmula que no tiene ningún modelo\nInconsistente\n\nLa respuesta correcta es: Se dice de la variable que no tiene ocurrencias ligadas → Libre, Se dice de\nlas fórmulas que tienen los mismos valores de verdad para toda interpretación → Equivalentes, Se\ndice de la fórmula que no tiene ningún modelo → Inconsistente\nLos símbolos de función y de predicado tienen tienen asociada una\naridad\n que indica\nsu número de argumentos.\nLa respuesta correcta es: aridad\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n3/16",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "pairs_user": [],
+        "pairs_correct": [],
+        "domain_hint": "sentencias"
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nAsocia las siguientes sentencias con el concepto con que se correspondan.\nSe dice de la variable que no tiene ocurrencias ligadas\nLibre\n\nSe dice de las fórmulas que tienen los mismos valores de verdad\npara toda interpretación\nEquivalentes\n\nSe dice de la fórmula que no tiene ningún modelo\nInconsistente\n\nLa respuesta correcta es: Se dice de la variable que no tiene ocurrencias ligadas → Libre, Se dice de\nlas fórmulas que tienen los mismos valores de verdad para toda interpretación → Equivalentes, Se\ndice de la fórmula que no tiene ningún modelo → Inconsistente\nLos símbolos de función y de predicado tienen tienen asociada una\naridad\n que indica\nsu número de argumentos.\nLa respuesta correcta es: aridad\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n3/16",
+        "pages": [
+          2
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q5",
+      "number": 5,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "pages": [
+          3
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q5",
+          "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+        }
+      ]
+    },
+    {
+      "id": "Q6",
+      "number": 6,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nLos símbolos de\nvariables\n se representan normalmente por letras minúsculas del final del\nalfabeto con o sin subíndices: x, y, z, x1 , y23.\nLa respuesta correcta es: variables\nUn\ntérmino\n es o bien una constante, o bien una variable, o bien una función sobre\ntérminos.\nLa respuesta correcta es: término\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n4/16",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [
+          "variables"
+        ],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nLos símbolos de\nvariables\n se representan normalmente por letras minúsculas del final del\nalfabeto con o sin subíndices: x, y, z, x1 , y23.\nLa respuesta correcta es: variables\nUn\ntérmino\n es o bien una constante, o bien una variable, o bien una función sobre\ntérminos.\nLa respuesta correcta es: término\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n4/16",
+        "pages": [
+          3
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q6",
+          "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+        }
+      ]
+    },
+    {
+      "id": "Q7",
+      "number": 7,
+      "kind": "single_choice",
+      "stem": {
+        "text": "Incorrecta\nSe puntúa -1,00 sobre 1,00\nSeleccione una:\nSabiendo que «Paco y Quico son sospechosos de haber copiado las prácticas», ¿cuál de\nlas siguientes fórmulas proposicionales representa la sentencia «Hay a lo sumo un inocente»\n(a las variables proposicionales se les han asignado los siguientes significados)?\na.\n\nb.\nc.\nd.\nLa respuesta correcta es:\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n5/16",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 4,
+            "bbox": null,
+            "file": "Q7/page_4.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Incorrecta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "options": [
+          {
+            "key": "a",
+            "text": ""
+          },
+          {
+            "key": "b",
+            "text": "c."
+          },
+          {
+            "key": "d",
+            "text": "La respuesta correcta es:\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n5/16"
+          }
+        ],
+        "correct": [],
+        "user": []
+      },
+      "raw": {
+        "block_text": "Incorrecta\nSe puntúa -1,00 sobre 1,00\nSeleccione una:\nSabiendo que «Paco y Quico son sospechosos de haber copiado las prácticas», ¿cuál de\nlas siguientes fórmulas proposicionales representa la sentencia «Hay a lo sumo un inocente»\n(a las variables proposicionales se les han asignado los siguientes significados)?\na.\n\nb.\nc.\nd.\nLa respuesta correcta es:\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n5/16",
+        "pages": [
+          4
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q8",
+      "number": 8,
+      "kind": "single_choice",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una:\n¿Cuál de las siguientes fórmulas proposicionales representa la sentencia «Si llueve y no es el\ndía del espectador, entonces si María está disponible Ana y María quedan a tomar\nun café» (a las variables proposicionales se les han asignado los siguientes significados)?\nS\\triangleq\\textrm{Ana y María quedan a tomar un café}\na.\nb.\nc.\nd.\n\nLa respuesta correcta es:\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n6/16",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "options": [
+          {
+            "key": "a",
+            "text": "b."
+          },
+          {
+            "key": "c",
+            "text": "d.\n"
+          }
+        ],
+        "correct": [],
+        "user": []
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una:\n¿Cuál de las siguientes fórmulas proposicionales representa la sentencia «Si llueve y no es el\ndía del espectador, entonces si María está disponible Ana y María quedan a tomar\nun café» (a las variables proposicionales se les han asignado los siguientes significados)?\nS\\triangleq\\textrm{Ana y María quedan a tomar un café}\na.\nb.\nc.\nd.\n\nLa respuesta correcta es:\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n6/16",
+        "pages": [
+          5
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q9",
+      "number": 9,
+      "kind": "matching",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\nSelecciona aquellas opciones que se corresponden con una celda con un valor de 1 en la siguiente\ntabla de verdad (IMPORTANTE! ten en cuenta la asociatividad y precedencia):\nQR (R →Q )∨(R →R)\n0 0 0 1\n0 1 0 1 0\n0 1 1 [C] [D] 1 1 [B] 1\n1 0 0 [A] 1 1 0 1 0\n1 1 1 1\n1 1 1 1 1\nB \nA \nD\nC\nLas respuestas correctas son:\nA,\nB\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n7/16",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 6,
+            "bbox": null,
+            "file": "Q9/page_6.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "pairs_user": [],
+        "pairs_correct": [],
+        "domain_hint": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\nSelecciona aquellas opciones que se corresponden con una celda con un valor de 1 en la siguiente\ntabla de verdad (IMPORTANTE! ten en cuenta la asociatividad y precedencia):\nQR (R →Q )∨(R →R)\n0 0 0 1\n0 1 0 1 0\n0 1 1 [C] [D] 1 1 [B] 1\n1 0 0 [A] 1 1 0 1 0\n1 1 1 1\n1 1 1 1 1\nB \nA \nD\nC\nLas respuestas correctas son:\nA,\nB\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n7/16",
+        "pages": [
+          6
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q10",
+      "number": 10,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\nEl que sigue se supone que es el árbol de prueba para demostrar que\nes consecuencia lógica de las fórmulas:\nPero algunos de los nodos han sido procesados de forma incorrecta, indica cuales.\nA \nLa fórmula\nse debería\nhaber dividido en dos ramas, una con\ny otra con\n, no en una\núnica rama que contenga ambas.\nB \nLa fórmula\nse debería\nhaber dividido en dos ramas, una con\ny otra con\n, no en una única\nrama que contenga ambas.\nD\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n8/16\nC\nRespuesta correcta\nLas respuestas correctas son: A, B\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n9/16",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 7,
+            "bbox": null,
+            "file": "Q10/page_7.png"
+          },
+          {
+            "type": "full_page",
+            "page": 8,
+            "bbox": null,
+            "file": "Q10/page_8.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\nEl que sigue se supone que es el árbol de prueba para demostrar que\nes consecuencia lógica de las fórmulas:\nPero algunos de los nodos han sido procesados de forma incorrecta, indica cuales.\nA \nLa fórmula\nse debería\nhaber dividido en dos ramas, una con\ny otra con\n, no en una\núnica rama que contenga ambas.\nB \nLa fórmula\nse debería\nhaber dividido en dos ramas, una con\ny otra con\n, no en una única\nrama que contenga ambas.\nD\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n8/16\nC\nRespuesta correcta\nLas respuestas correctas son: A, B\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n9/16",
+        "pages": [
+          7,
+          8
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "OPTIONS_MISSING_TEXT",
+          "where": "Q10",
+          "msg": "multi_select had less than 2 options, changed to short_answer_text"
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "number": 11,
+      "kind": "multi_select",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\nEl que sigue es un árbol de prueba correcto y completo en el que no se ha indicado que ramas\nestán cerradas y que ramas están abiertas. A la vista de dicho árbol elige las respuestas correctas.\na.\nLa fórmula\nNO es consecuencia lógica de las fórmulas:\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n10/16\nb.\nLa fórmula\nNO es consecuencia lógica de las fórmulas:\nc.\nLa fórmula\nSÍ es consecuencia lógica de las fórmulas:\n\nRespuesta correcta\nLa respuesta correcta es: La fórmula\nSÍ es consecuencia lógica de las fórmulas:\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n11/16",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 9,
+            "bbox": null,
+            "file": "Q11/page_9.png"
+          },
+          {
+            "type": "full_page",
+            "page": 10,
+            "bbox": null,
+            "file": "Q11/page_10.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "options": [
+          {
+            "key": "a",
+            "text": "La fórmula\nNO es consecuencia lógica de las fórmulas:\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n10/16"
+          },
+          {
+            "key": "b",
+            "text": "La fórmula\nNO es consecuencia lógica de las fórmulas:"
+          },
+          {
+            "key": "c",
+            "text": "La fórmula\nSÍ es consecuencia lógica de las fórmulas:\n\nRespuesta correcta"
+          }
+        ],
+        "correct": [],
+        "user": []
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\nEl que sigue es un árbol de prueba correcto y completo en el que no se ha indicado que ramas\nestán cerradas y que ramas están abiertas. A la vista de dicho árbol elige las respuestas correctas.\na.\nLa fórmula\nNO es consecuencia lógica de las fórmulas:\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n10/16\nb.\nLa fórmula\nNO es consecuencia lógica de las fórmulas:\nc.\nLa fórmula\nSÍ es consecuencia lógica de las fórmulas:\n\nRespuesta correcta\nLa respuesta correcta es: La fórmula\nSÍ es consecuencia lógica de las fórmulas:\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n11/16",
+        "pages": [
+          9,
+          10
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q12",
+      "number": 12,
+      "kind": "single_choice",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una:\nEl que sigue es un árbol de prueba correcto en el que se ha marcado una rama con unas flechas\nazules. A la vista de dicho árbol elige la interpretación que se corresponde con la rama.\na.\nNinguna, se trata de\nuna rama cerrada.\n\nEfectivamente, se trata de una rama cerrada (aparecen tanto\nun átomo como su negación) , por tanto no existe\nninguna interpretación que satisfaga simultáneamente todas\nlas fórmulas de la raíz.\nb.\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n12/16\nc.\nd.\ne.\nRespuesta correcta\nLa respuesta correcta es: Ninguna, se trata de una rama cerrada.\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n13/16",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 11,
+            "bbox": null,
+            "file": "Q12/page_11.png"
+          },
+          {
+            "type": "full_page",
+            "page": 12,
+            "bbox": null,
+            "file": "Q12/page_12.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "options": [
+          {
+            "key": "a",
+            "text": "Ninguna, se trata de\nuna rama cerrada.\n\nEfectivamente, se trata de una rama cerrada (aparecen tanto\nun átomo como su negación) , por tanto no existe\nninguna interpretación que satisfaga simultáneamente todas\nlas fórmulas de la raíz."
+          },
+          {
+            "key": "b",
+            "text": "14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n12/16"
+          },
+          {
+            "key": "c",
+            "text": "d."
+          },
+          {
+            "key": "e",
+            "text": "Respuesta correcta"
+          }
+        ],
+        "correct": [],
+        "user": []
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una:\nEl que sigue es un árbol de prueba correcto en el que se ha marcado una rama con unas flechas\nazules. A la vista de dicho árbol elige la interpretación que se corresponde con la rama.\na.\nNinguna, se trata de\nuna rama cerrada.\n\nEfectivamente, se trata de una rama cerrada (aparecen tanto\nun átomo como su negación) , por tanto no existe\nninguna interpretación que satisfaga simultáneamente todas\nlas fórmulas de la raíz.\nb.\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n12/16\nc.\nd.\ne.\nRespuesta correcta\nLa respuesta correcta es: Ninguna, se trata de una rama cerrada.\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n13/16",
+        "pages": [
+          11,
+          12
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q13",
+      "number": 13,
+      "kind": "single_choice",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\n\n\nSeleccione una:\nConstruye un árbol de prueba para comprobar si la fórmula\nes consecuencia lógica de las fórmulas:\ny elige la respuesta correcta.\na.\nTodas las ramas se cierran, por lo tanto la fórmula no es consecuencia lógica de las otras\ndos.\nb.\nTodas las\nramas se\ncierran, por\nlo tanto la\nfórmula sí es\nconsecuencia\nlógica de las\notras dos.\n\nTodas las ramas del árbol de prueba se cierran, tal como puede verse a\ncontinuación\nc.\nEl árbol tiene ramas abiertas, por lo tanto la fórmula sí es consecuencia lógica de las otras\ndos.\nd.\nEl árbol tiene ramas abiertas, por lo tanto la fórmula no es consecuencia lógica de las otras\ndos.\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n14/16",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 13,
+            "bbox": null,
+            "file": "Q13/page_13.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "options": [
+          {
+            "key": "a",
+            "text": "Todas las ramas se cierran, por lo tanto la fórmula no es consecuencia lógica de las otras\ndos."
+          },
+          {
+            "key": "b",
+            "text": "Todas las\nramas se\ncierran, por\nlo tanto la\nfórmula sí es\nconsecuencia\nlógica de las\notras dos.\n\nTodas las ramas del árbol de prueba se cierran, tal como puede verse a\ncontinuación"
+          },
+          {
+            "key": "c",
+            "text": "El árbol tiene ramas abiertas, por lo tanto la fórmula sí es consecuencia lógica de las otras\ndos."
+          },
+          {
+            "key": "d",
+            "text": "El árbol tiene ramas abiertas, por lo tanto la fórmula no es consecuencia lógica de las otras\ndos.\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n14/16"
+          }
+        ],
+        "correct": [],
+        "user": []
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\n\n\nSeleccione una:\nConstruye un árbol de prueba para comprobar si la fórmula\nes consecuencia lógica de las fórmulas:\ny elige la respuesta correcta.\na.\nTodas las ramas se cierran, por lo tanto la fórmula no es consecuencia lógica de las otras\ndos.\nb.\nTodas las\nramas se\ncierran, por\nlo tanto la\nfórmula sí es\nconsecuencia\nlógica de las\notras dos.\n\nTodas las ramas del árbol de prueba se cierran, tal como puede verse a\ncontinuación\nc.\nEl árbol tiene ramas abiertas, por lo tanto la fórmula sí es consecuencia lógica de las otras\ndos.\nd.\nEl árbol tiene ramas abiertas, por lo tanto la fórmula no es consecuencia lógica de las otras\ndos.\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n14/16",
+        "pages": [
+          13
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q14",
+      "number": 14,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nRespuesta correcta\nLa respuesta correcta es: Todas las ramas se cierran, por lo tanto la fórmula sí es consecuencia\nlógica de las otras dos.\nDada la interpretación de la lógica de proposiciones\n, asocia las siguientes\nproposiciones con su valor de verdad\nTrue\n\nFalse\n\nFalse\n\nLa respuesta correcta es:\n→ True,\n→ False,\n→ False\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n15/16",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 14,
+            "bbox": null,
+            "file": "Q14/page_14.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [
+          "Todas las ramas se cierran",
+          "por lo tanto la fórmula sí es consecuencia"
+        ],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nRespuesta correcta\nLa respuesta correcta es: Todas las ramas se cierran, por lo tanto la fórmula sí es consecuencia\nlógica de las otras dos.\nDada la interpretación de la lógica de proposiciones\n, asocia las siguientes\nproposiciones con su valor de verdad\nTrue\n\nFalse\n\nFalse\n\nLa respuesta correcta es:\n→ True,\n→ False,\n→ False\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n15/16",
+        "pages": [
+          14
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q14",
+          "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "number": 15,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "pages": [
+          15
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q15",
+          "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+        }
+      ]
+    },
+    {
+      "id": "Q16",
+      "number": 16,
+      "kind": "matching",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nAsociar cada una de las siguientes fórmulas con la afirmación que le corresponda.\nEs tautologica y satisfacible\n\nEs inválida y satisfacible\n\nEs inválida y satisfacible\n\nLa respuesta correcta es:\n→ Es tautologica y satisfacible,\n→ Es inválida y\nsatisfacible,\n→ Es inválida y satisfacible\nDada una interpretación para la lógica de predicados en la que el dominio es\n, el\nsímbolo\nse ha asociado con una función tal que\ny\n, y el símbolo\nse ha\nasociado a una relación tal que\n, determinar el\nvalor de verdad de las siguientes fórmulas\nTrue\n\nFalse\n\nFalse\n\nLa respuesta correcta es:\n→ True,\n→ False,\n→ False\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n16/16",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "pairs_user": [],
+        "pairs_correct": [],
+        "domain_hint": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nAsociar cada una de las siguientes fórmulas con la afirmación que le corresponda.\nEs tautologica y satisfacible\n\nEs inválida y satisfacible\n\nEs inválida y satisfacible\n\nLa respuesta correcta es:\n→ Es tautologica y satisfacible,\n→ Es inválida y\nsatisfacible,\n→ Es inválida y satisfacible\nDada una interpretación para la lógica de predicados en la que el dominio es\n, el\nsímbolo\nse ha asociado con una función tal que\ny\n, y el símbolo\nse ha\nasociado a una relación tal que\n, determinar el\nvalor de verdad de las siguientes fórmulas\nTrue\n\nFalse\n\nFalse\n\nLa respuesta correcta es:\n→ True,\n→ False,\n→ False\n14/12/25, 20:22\nC8 - Cuestionario sobre el tema de lógica: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1287470&cmid=3422465\n16/16",
+        "pages": [
+          15
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    }
+  ],
+  "issues": []
+}

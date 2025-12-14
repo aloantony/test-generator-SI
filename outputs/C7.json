@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "C7_Cuestionario_sobre_evaluaci├│n_de_modelos_y_algoritmos_de_ML_Revisi├│n.pdf",
+    "doc_type": "moodle_attempt_review",
+    "page_count": 6
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "number": 1,
+      "kind": "cloze_labeled_blanks",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nTrue\nLabel\nPredicted\nLabel\nYes\nYes\nYes\nYes\nNo\nYes\nYes\nYes\nNo\nYes\nNo\nNo\nYes\nYes\nYes\nYes\nYes\nYes\nNo\nYes\nTP:\n6\n\nTN:\n1\n\nFP:\n3\n\nFN:\n0\n\nA la vista de la tabla (donde se muestran las etiquetas reales y las predichas para varias instancias),\nrellena los blancos.\n14/12/25, 20:22\nC7 - Cuestionario sobre evaluación de modelos y algoritmos de ML: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1283544&cmid=3422404\n2/6",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "blanks": [
+          {
+            "label": "TP",
+            "expected": "6\n",
+            "user": null
+          },
+          {
+            "label": "TN",
+            "expected": "1\n",
+            "user": null
+          },
+          {
+            "label": "FP",
+            "expected": "3\n",
+            "user": null
+          },
+          {
+            "label": "FN",
+            "expected": "0\n\nA la vista de la tabla (donde se muestran las etiquetas reales y las predichas para varias instancias),\nrellena los blancos.\n14/12/25, 20:22\nC7 - Cuestionario sobre evaluación de modelos y algoritmos de ML: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1283544&cmid=3422404\n2/6",
+            "user": null
+          }
+        ]
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nTrue\nLabel\nPredicted\nLabel\nYes\nYes\nYes\nYes\nNo\nYes\nYes\nYes\nNo\nYes\nNo\nNo\nYes\nYes\nYes\nYes\nYes\nYes\nNo\nYes\nTP:\n6\n\nTN:\n1\n\nFP:\n3\n\nFN:\n0\n\nA la vista de la tabla (donde se muestran las etiquetas reales y las predichas para varias instancias),\nrellena los blancos.\n14/12/25, 20:22\nC7 - Cuestionario sobre evaluación de modelos y algoritmos de ML: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1283544&cmid=3422404\n2/6",
+        "pages": [
+          1
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q2",
+      "number": 2,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "pages": [
+          2
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q2",
+          "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+        }
+      ]
+    },
+    {
+      "id": "Q3",
+      "number": 3,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nPredicted Class Label\nTrue\nClass\nLabel\nYes\nNo\nYes\n8\n1\nNo\n3\n6\nA la vista de la siguiente matriz de confusión para un clasificador binario, ¿Cuál es el valor de la\nmétrica «accuracy» para el clasificador? (usa una coma para separar la parte decimal y rendondea el\nresultado a dos decimales)\n0,78\n\nPredicted Class Label\nTrue\nClass\nLabel\nYes\nNo\nYes\n6\n5\nNo\n10\n8\nA la vista de la siguiente matriz de confusión para un clasificador binario, ¿Cuál es el valor de la\nmétrica «F1 score» para el clasificador? (usa una coma para separar la parte decimal y rendondea el\nresultado a dos decimales)\n0,44\n\n14/12/25, 20:22\nC7 - Cuestionario sobre evaluación de modelos y algoritmos de ML: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1283544&cmid=3422404\n3/6",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nPredicted Class Label\nTrue\nClass\nLabel\nYes\nNo\nYes\n8\n1\nNo\n3\n6\nA la vista de la siguiente matriz de confusión para un clasificador binario, ¿Cuál es el valor de la\nmétrica «accuracy» para el clasificador? (usa una coma para separar la parte decimal y rendondea el\nresultado a dos decimales)\n0,78\n\nPredicted Class Label\nTrue\nClass\nLabel\nYes\nNo\nYes\n6\n5\nNo\n10\n8\nA la vista de la siguiente matriz de confusión para un clasificador binario, ¿Cuál es el valor de la\nmétrica «F1 score» para el clasificador? (usa una coma para separar la parte decimal y rendondea el\nresultado a dos decimales)\n0,44\n\n14/12/25, 20:22\nC7 - Cuestionario sobre evaluación de modelos y algoritmos de ML: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1283544&cmid=3422404\n3/6",
+        "pages": [
+          2
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q3",
+          "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+        }
+      ]
+    },
+    {
+      "id": "Q4",
+      "number": 4,
+      "kind": "numeric",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nA la vista de la siguiente figura, ¿Cuál sería el valor de la métrica «F1 score»? (usa la coma para\nseparar los decimales y redondea el resultado a dos decimales)\ntrue positives\nfalse negatives\ntrue negatives\nActual positive class\nsamples identified as positive\nRespuesta:\n0,40\n\nLa respuesta correcta es: 0,4\n14/12/25, 20:22\nC7 - Cuestionario sobre evaluación de modelos y algoritmos de ML: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1283544&cmid=3422404\n4/6",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 3,
+            "bbox": null,
+            "file": "Q4/page_3.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [
+          "0,4"
+        ],
+        "user": "0,40",
+        "numeric_format": {
+          "decimal_separator": ",",
+          "round_decimals": null,
+          "tolerance": null
+        }
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nA la vista de la siguiente figura, ¿Cuál sería el valor de la métrica «F1 score»? (usa la coma para\nseparar los decimales y redondea el resultado a dos decimales)\ntrue positives\nfalse negatives\ntrue negatives\nActual positive class\nsamples identified as positive\nRespuesta:\n0,40\n\nLa respuesta correcta es: 0,4\n14/12/25, 20:22\nC7 - Cuestionario sobre evaluación de modelos y algoritmos de ML: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1283544&cmid=3422404\n4/6",
+        "pages": [
+          3
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q5",
+      "number": 5,
+      "kind": "cloze_labeled_blanks",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nx\nx\ny\n-1 5 0\n2\n2 0\n-6 -8 0\n-1 -7 0\n2 -5 1\n2\n7 1\n-4 -1 0\n9\n0 0\n-6 2 0\n5\n7 1\na:\n20\n\nb:\n8\n\nc:\n-1\n\nd:\n20\n\nLos valores de los atributos y la clase de las instancias de un conjunto de datos bidimensional se\nmuestran en la tabla de la izquierda. Teniendo en cuenta esos valores, completa los valores que\ndeben aparecer en los lugares marcados con letra en la siguiente ecuación.\n2\n8\n0\na\nb\nc\nd\n=\n1\n2\n14/12/25, 20:22\nC7 - Cuestionario sobre evaluación de modelos y algoritmos de ML: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1283544&cmid=3422404\n5/6",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "blanks": [
+          {
+            "label": "a",
+            "expected": "20\n",
+            "user": null
+          },
+          {
+            "label": "b",
+            "expected": "8\n",
+            "user": null
+          },
+          {
+            "label": "c",
+            "expected": "-1\n",
+            "user": null
+          },
+          {
+            "label": "d",
+            "expected": "20\n\nLos valores de los atributos y la clase de las instancias de un conjunto de datos bidimensional se\nmuestran en la tabla de la izquierda. Teniendo en cuenta esos valores, completa los valores que\ndeben aparecer en los lugares marcados con letra en la siguiente ecuación.\n2\n8\n0\na\nb\nc\nd\n=\n1\n2\n14/12/25, 20:22\nC7 - Cuestionario sobre evaluación de modelos y algoritmos de ML: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1283544&cmid=3422404\n5/6",
+            "user": null
+          }
+        ]
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nx\nx\ny\n-1 5 0\n2\n2 0\n-6 -8 0\n-1 -7 0\n2 -5 1\n2\n7 1\n-4 -1 0\n9\n0 0\n-6 2 0\n5\n7 1\na:\n20\n\nb:\n8\n\nc:\n-1\n\nd:\n20\n\nLos valores de los atributos y la clase de las instancias de un conjunto de datos bidimensional se\nmuestran en la tabla de la izquierda. Teniendo en cuenta esos valores, completa los valores que\ndeben aparecer en los lugares marcados con letra en la siguiente ecuación.\n2\n8\n0\na\nb\nc\nd\n=\n1\n2\n14/12/25, 20:22\nC7 - Cuestionario sobre evaluación de modelos y algoritmos de ML: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1283544&cmid=3422404\n5/6",
+        "pages": [
+          4
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q6",
+      "number": 6,
+      "kind": "numeric",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nLa figura muestra la distribución de clases de las instancias ordenadas a lo largo de uno de los\natributos de un conjunto de datos. ¿Cuál sería la ganancia de información para este atributo si\nel valor en b se usa como punto de corte? (redondea el valor a 4 decimales y usa la coma para\nseparar la parte decimal)\na\nb\nc\nd\ne\nf\ng\nh\ni\nRespuesta:\n0,0074\n\nLa respuesta correcta es: 0,0074033921146966\n14/12/25, 20:22\nC7 - Cuestionario sobre evaluación de modelos y algoritmos de ML: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1283544&cmid=3422404\n6/6",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 5,
+            "bbox": null,
+            "file": "Q6/page_5.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [
+          "0,0074033921146966"
+        ],
+        "user": "0,0074",
+        "numeric_format": {
+          "decimal_separator": ",",
+          "round_decimals": null,
+          "tolerance": null
+        }
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nLa figura muestra la distribución de clases de las instancias ordenadas a lo largo de uno de los\natributos de un conjunto de datos. ¿Cuál sería la ganancia de información para este atributo si\nel valor en b se usa como punto de corte? (redondea el valor a 4 decimales y usa la coma para\nseparar la parte decimal)\na\nb\nc\nd\ne\nf\ng\nh\ni\nRespuesta:\n0,0074\n\nLa respuesta correcta es: 0,0074033921146966\n14/12/25, 20:22\nC7 - Cuestionario sobre evaluación de modelos y algoritmos de ML: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1283544&cmid=3422404\n6/6",
+        "pages": [
+          5
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    }
+  ],
+  "issues": []
+}

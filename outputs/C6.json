@@ -1,0 +1,490 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "C6_Cuestionario_sobre_conceptos_de_aprendizaje_autom├ítico_y_por.pdf",
+    "doc_type": "moodle_attempt_review",
+    "page_count": 9
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "number": 1,
+      "kind": "matching",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\n¿Con qué tipo de problema se corresponden los siguientes ejemplos de problemas?\nIdentificar áreas de topografía similar en imágenes (desierto,\nciudad, bosque alto, bosque bajo, …).\nSegmentación\n\nCalcular una estimación del tiempo en que se producirá la\npróxima avería de una máquina.\nRegresión\n\nCrear grupos de pacientes parecidos según las características\nde su análisis de sangre.\nSegmentación\n\nPredecir la cantidad de lluvia por metro cuadrado en un\nperiodo de tiempo.\nRegresión\n\nDeterminar si una solicitud de hipoteca es de alto riesgo, de\nriesgo medio, o de bajo riesgo.\nClasificación\n\nLa respuesta correcta es: Identificar áreas de topografía similar en imágenes (desierto, ciudad,\nbosque alto, bosque bajo, …). → Segmentación, Calcular una estimación del tiempo en que se\nproducirá la próxima avería de una máquina. → Regresión, Crear grupos de pacientes parecidos\nsegún las características de su análisis de sangre. → Segmentación, Predecir la cantidad de lluvia\npor metro cuadrado en un periodo de tiempo. → Regresión, Determinar si una solicitud de hipoteca\nes de alto riesgo, de riesgo medio, o de bajo riesgo. → Clasificación\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n1/9",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "pairs_user": [],
+        "pairs_correct": [],
+        "domain_hint": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\n¿Con qué tipo de problema se corresponden los siguientes ejemplos de problemas?\nIdentificar áreas de topografía similar en imágenes (desierto,\nciudad, bosque alto, bosque bajo, …).\nSegmentación\n\nCalcular una estimación del tiempo en que se producirá la\npróxima avería de una máquina.\nRegresión\n\nCrear grupos de pacientes parecidos según las características\nde su análisis de sangre.\nSegmentación\n\nPredecir la cantidad de lluvia por metro cuadrado en un\nperiodo de tiempo.\nRegresión\n\nDeterminar si una solicitud de hipoteca es de alto riesgo, de\nriesgo medio, o de bajo riesgo.\nClasificación\n\nLa respuesta correcta es: Identificar áreas de topografía similar en imágenes (desierto, ciudad,\nbosque alto, bosque bajo, …). → Segmentación, Calcular una estimación del tiempo en que se\nproducirá la próxima avería de una máquina. → Regresión, Crear grupos de pacientes parecidos\nsegún las características de su análisis de sangre. → Segmentación, Predecir la cantidad de lluvia\npor metro cuadrado en un periodo de tiempo. → Regresión, Determinar si una solicitud de hipoteca\nes de alto riesgo, de riesgo medio, o de bajo riesgo. → Clasificación\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n1/9",
+        "pages": [
+          0
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q2",
+      "number": 2,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "pages": [
+          1
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q2",
+          "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+        }
+      ]
+    },
+    {
+      "id": "Q3",
+      "number": 3,
+      "kind": "multi_select",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\n¿A qué preguntas hay que dar respuesta en la fase de preparación dentro de un proceso de minería\nde datos?\na.\n¿Están todas las características dentro del mismo rango, o tengo que escalarlas? \nb.\n¿En torno a qué valores se agrupan los datos de que dispongo? \nc.\n¿Tengo datos suficientes para apartar algunos que pueda utilizar en la evaluación de\nmodelos?\nd.\n¿Las distribución de datos es simétrica o asimétrica? \ne.\n¿Qué parámetros de validación cruzada utilizo para evaluar los modelos?\nf.\n¿Debería comercializar ciertos productos a un segmento de clientes específico para\naumentar las ventas?\nLas respuestas correctas son: ¿Las distribución de datos es simétrica o asimétrica?, ¿Están todas las\ncaracterísticas dentro del mismo rango, o tengo que escalarlas?, ¿En torno a qué valores se agrupan\nlos datos de que dispongo?\n¿Qué concepto está definiendo la siguiente descripción?\n«Problema de clasificación en el que la etiqueta puede tomar uno de más de dos\nvalores posibles»\nRespuesta:\nmulti-clase\n\nLa respuesta correcta es: Clasificación multi-clase\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n2/9",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "options": [
+          {
+            "key": "a",
+            "text": "¿Están todas las características dentro del mismo rango, o tengo que escalarlas? "
+          },
+          {
+            "key": "b",
+            "text": "¿En torno a qué valores se agrupan los datos de que dispongo? "
+          },
+          {
+            "key": "c",
+            "text": "¿Tengo datos suficientes para apartar algunos que pueda utilizar en la evaluación de\nmodelos?"
+          },
+          {
+            "key": "d",
+            "text": "¿Las distribución de datos es simétrica o asimétrica? "
+          },
+          {
+            "key": "e",
+            "text": "¿Qué parámetros de validación cruzada utilizo para evaluar los modelos?\nf.\n¿Debería comercializar ciertos productos a un segmento de clientes específico para\naumentar las ventas?"
+          }
+        ],
+        "correct": [],
+        "user": []
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\n¿A qué preguntas hay que dar respuesta en la fase de preparación dentro de un proceso de minería\nde datos?\na.\n¿Están todas las características dentro del mismo rango, o tengo que escalarlas? \nb.\n¿En torno a qué valores se agrupan los datos de que dispongo? \nc.\n¿Tengo datos suficientes para apartar algunos que pueda utilizar en la evaluación de\nmodelos?\nd.\n¿Las distribución de datos es simétrica o asimétrica? \ne.\n¿Qué parámetros de validación cruzada utilizo para evaluar los modelos?\nf.\n¿Debería comercializar ciertos productos a un segmento de clientes específico para\naumentar las ventas?\nLas respuestas correctas son: ¿Las distribución de datos es simétrica o asimétrica?, ¿Están todas las\ncaracterísticas dentro del mismo rango, o tengo que escalarlas?, ¿En torno a qué valores se agrupan\nlos datos de que dispongo?\n¿Qué concepto está definiendo la siguiente descripción?\n«Problema de clasificación en el que la etiqueta puede tomar uno de más de dos\nvalores posibles»\nRespuesta:\nmulti-clase\n\nLa respuesta correcta es: Clasificación multi-clase\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n2/9",
+        "pages": [
+          1
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q4",
+      "number": 4,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nUn PDM se define formalmente como una tupla\nes un alfabeto (conjunto finito y no vacío) de\nestados\n.\nes un alfabeto de\nacciones\n\nPuede haber dos estados especiales\n, los estados\ninicial\n y\nfinal\n.\nes un modelo de\ntransición\n que determina la\nprobabilidad de obtener un estado\na partir del estado si aplicamos la acción\n:\n.\nes una función de recompensa o\nrefuerzo\n que retorna la\nrecompensa o penalización de ejecutar la acción a en el estado para alcanzar el estado\n.\nEn ocasiones depende exclusivamente del estado de partida o del estado de llegada.\nes una tasa de\ndescuento\n que penaliza las recompensas\nfuturas\n.\nSe busca una\npolítica\n de actuación\n, que dado un estado retorna\nla acción\nque el agente tiene que ejecutar.\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n3/9",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nUn PDM se define formalmente como una tupla\nes un alfabeto (conjunto finito y no vacío) de\nestados\n.\nes un alfabeto de\nacciones\n\nPuede haber dos estados especiales\n, los estados\ninicial\n y\nfinal\n.\nes un modelo de\ntransición\n que determina la\nprobabilidad de obtener un estado\na partir del estado si aplicamos la acción\n:\n.\nes una función de recompensa o\nrefuerzo\n que retorna la\nrecompensa o penalización de ejecutar la acción a en el estado para alcanzar el estado\n.\nEn ocasiones depende exclusivamente del estado de partida o del estado de llegada.\nes una tasa de\ndescuento\n que penaliza las recompensas\nfuturas\n.\nSe busca una\npolítica\n de actuación\n, que dado un estado retorna\nla acción\nque el agente tiene que ejecutar.\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n3/9",
+        "pages": [
+          2
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": true,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q4",
+          "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+        }
+      ]
+    },
+    {
+      "id": "Q5",
+      "number": 5,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "pages": [
+          3
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q5",
+          "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+        }
+      ]
+    },
+    {
+      "id": "Q6",
+      "number": 6,
+      "kind": "numeric",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSi las recompensas asociadas a los estados s0, s1 y s2 son respectivamente 1, 2 y 4, y el factor de\npenalización\nγ es 0.5, ¿Qué utilidad se le asocia a la secuencia s0, s1, s2? (es decir, ¿cuál es el\nvalor de U[(s0, s1, s2)]?)\nRespuesta:\n3\n\nLa respuesta correcta es: 3\nSi en un proceso de validación cruzada (crossvalidation) se divide el conjunto de datos en 5 partes,\n¿de cuántos modelos habrá que hacer la media para calcular lo bien que funciona un algoritmo\nconcreto sobre el conjunto de datos?\nRespuesta:\n5\n\nLa respuesta correcta es: 5\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n4/9",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [
+          "3"
+        ],
+        "user": "3",
+        "numeric_format": {
+          "decimal_separator": ".",
+          "round_decimals": null,
+          "tolerance": null
+        }
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSi las recompensas asociadas a los estados s0, s1 y s2 son respectivamente 1, 2 y 4, y el factor de\npenalización\nγ es 0.5, ¿Qué utilidad se le asocia a la secuencia s0, s1, s2? (es decir, ¿cuál es el\nvalor de U[(s0, s1, s2)]?)\nRespuesta:\n3\n\nLa respuesta correcta es: 3\nSi en un proceso de validación cruzada (crossvalidation) se divide el conjunto de datos en 5 partes,\n¿de cuántos modelos habrá que hacer la media para calcular lo bien que funciona un algoritmo\nconcreto sobre el conjunto de datos?\nRespuesta:\n5\n\nLa respuesta correcta es: 5\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n4/9",
+        "pages": [
+          3
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q7",
+      "number": 7,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "pages": [
+          4
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q7",
+          "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+        }
+      ]
+    },
+    {
+      "id": "Q8",
+      "number": 8,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\n¿Qué concepto está definiendo la siguiente descripción?\n«En la estructura de datos tipo árbol expectimax que se utiliza en el aprendizaje\npor refuerzo, ¿cómo se llaman los nodos que representan la intención del\nagente de tomar una determinada acción y un estado dado, pero antes de\nllevarla a cabo, por tanto desconociendo la penalización o recompensa?»\nRespuesta:\nnodos Q\n\nLa respuesta correcta es: Nodo Q\n¿Qué concepto está definiendo la siguiente descripción?\n«Algoritmo de aprendizaje supervisado que procede particionando\nrecursivamente el conjunto de datos de entrenamiento eligiendo el atributo y\nvalor que optimice cierta medida (entropía, ganancia de información, índice\nGini, ...).»\nRespuesta:\nÁrbol de decisión\n\nLa respuesta correcta es: Árbol de decisión\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n5/9",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 4,
+            "bbox": null,
+            "file": "Q8/page_4.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [
+          "Nodo Q"
+        ],
+        "user": "nodos Q"
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\n¿Qué concepto está definiendo la siguiente descripción?\n«En la estructura de datos tipo árbol expectimax que se utiliza en el aprendizaje\npor refuerzo, ¿cómo se llaman los nodos que representan la intención del\nagente de tomar una determinada acción y un estado dado, pero antes de\nllevarla a cabo, por tanto desconociendo la penalización o recompensa?»\nRespuesta:\nnodos Q\n\nLa respuesta correcta es: Nodo Q\n¿Qué concepto está definiendo la siguiente descripción?\n«Algoritmo de aprendizaje supervisado que procede particionando\nrecursivamente el conjunto de datos de entrenamiento eligiendo el atributo y\nvalor que optimice cierta medida (entropía, ganancia de información, índice\nGini, ...).»\nRespuesta:\nÁrbol de decisión\n\nLa respuesta correcta es: Árbol de decisión\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n5/9",
+        "pages": [
+          4
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q9",
+      "number": 9,
+      "kind": "matching",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\n¿Con qué tipo de problema se corresponden los siguientes ejemplos de problemas?\nEstimar el consumo eléctrico por horas.\nRegresión\n\nAgrupar potenciales clientes en características parecidas según\nsus visitas y comportamiento en una web.\nSegmentación\n\nDeterminar si el funcionamiento anómalo de un motor de\ninducción eléctrica es consecuencia de un desbalanceo del eje,\nde una barra rota en el rotor o de un mal alineamiento de la\ncarga.\nClasificación\n\nPredecir si lloverá al día siguiente.\nClasificación\n\nDeterminar si una solicitud de hipoteca es de alto riesgo, de\nriesgo medio, o de bajo riesgo.\nClasificación\n\nLa respuesta correcta es: Estimar el consumo eléctrico por horas. → Regresión, Agrupar potenciales\nclientes en características parecidas según sus visitas y comportamiento en una web. →\nSegmentación, Determinar si el funcionamiento anómalo de un motor de inducción eléctrica es\nconsecuencia de un desbalanceo del eje, de una barra rota en el rotor o de un mal alineamiento de\nla carga. → Clasificación, Predecir si lloverá al día siguiente. → Clasificación, Determinar si una\nsolicitud de hipoteca es de alto riesgo, de riesgo medio, o de bajo riesgo. → Clasificación\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n6/9",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "pairs_user": [],
+        "pairs_correct": [],
+        "domain_hint": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\n¿Con qué tipo de problema se corresponden los siguientes ejemplos de problemas?\nEstimar el consumo eléctrico por horas.\nRegresión\n\nAgrupar potenciales clientes en características parecidas según\nsus visitas y comportamiento en una web.\nSegmentación\n\nDeterminar si el funcionamiento anómalo de un motor de\ninducción eléctrica es consecuencia de un desbalanceo del eje,\nde una barra rota en el rotor o de un mal alineamiento de la\ncarga.\nClasificación\n\nPredecir si lloverá al día siguiente.\nClasificación\n\nDeterminar si una solicitud de hipoteca es de alto riesgo, de\nriesgo medio, o de bajo riesgo.\nClasificación\n\nLa respuesta correcta es: Estimar el consumo eléctrico por horas. → Regresión, Agrupar potenciales\nclientes en características parecidas según sus visitas y comportamiento en una web. →\nSegmentación, Determinar si el funcionamiento anómalo de un motor de inducción eléctrica es\nconsecuencia de un desbalanceo del eje, de una barra rota en el rotor o de un mal alineamiento de\nla carga. → Clasificación, Predecir si lloverá al día siguiente. → Clasificación, Determinar si una\nsolicitud de hipoteca es de alto riesgo, de riesgo medio, o de bajo riesgo. → Clasificación\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n6/9",
+        "pages": [
+          5
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q10",
+      "number": 10,
+      "kind": "matching",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\n¿Con qué tipo de problema se corresponden los siguientes ejemplos de problemas?\nPredecir la cantidad de lluvia por metro cuadrado en un\nperiodo de tiempo.\nRegresión\n\nIdentificar áreas de topografía similar en imágenes (desierto,\nciudad, bosque alto, bosque bajo, …).\nSegmentación\n\nEstimar la demanda de un producto en función de la época del\naño.\nRegresión\n\nCrear grupos de pacientes parecidos según las características\nde su análisis de sangre.\nSegmentación\n\nIdentificar si un texto esta expresando un sentimiento positivo\no negativo.\nClasificación\n\nLa respuesta correcta es: Predecir la cantidad de lluvia por metro cuadrado en un periodo de\ntiempo. → Regresión, Identificar áreas de topografía similar en imágenes (desierto, ciudad, bosque\nalto, bosque bajo, …). → Segmentación, Estimar la demanda de un producto en función de la época\ndel año. → Regresión, Crear grupos de pacientes parecidos según las características de su análisis\nde sangre. → Segmentación, Identificar si un texto esta expresando un sentimiento positivo o\nnegativo. → Clasificación\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n7/9",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "pairs_user": [],
+        "pairs_correct": [],
+        "domain_hint": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\n¿Con qué tipo de problema se corresponden los siguientes ejemplos de problemas?\nPredecir la cantidad de lluvia por metro cuadrado en un\nperiodo de tiempo.\nRegresión\n\nIdentificar áreas de topografía similar en imágenes (desierto,\nciudad, bosque alto, bosque bajo, …).\nSegmentación\n\nEstimar la demanda de un producto en función de la época del\naño.\nRegresión\n\nCrear grupos de pacientes parecidos según las características\nde su análisis de sangre.\nSegmentación\n\nIdentificar si un texto esta expresando un sentimiento positivo\no negativo.\nClasificación\n\nLa respuesta correcta es: Predecir la cantidad de lluvia por metro cuadrado en un periodo de\ntiempo. → Regresión, Identificar áreas de topografía similar en imágenes (desierto, ciudad, bosque\nalto, bosque bajo, …). → Segmentación, Estimar la demanda de un producto en función de la época\ndel año. → Regresión, Crear grupos de pacientes parecidos según las características de su análisis\nde sangre. → Segmentación, Identificar si un texto esta expresando un sentimiento positivo o\nnegativo. → Clasificación\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n7/9",
+        "pages": [
+          6
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q11",
+      "number": 11,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 2,00 sobre 2,00\nA la vista del siguiente árbol de búsqueda de un proceso de decisión de Markov, donde:\nLos arcos que parten de los nodos Q muestran la probabilidad de que el resultado de la acción\nlleve al descendiente apuntado por el arco y la recompensa puntual si finalmente se sigue ese\narco.\nLos nodos de la frontera de exploración muestran el valor V de los estados a los que se llega.\nCalcula el valor que se obtendría para el nodo en la raíz si el valor de la tasa de descuento es 𝛾=0.4.\nUtiliza una coma para separar los decimales.\n7\n3\n6\n4\n9\n0.9/\n2\n0.1/\n5\n0.2/\n8\n0.8/\nRespuesta:\n10,94\n\n¡Correcto! Efectivamente el valor para el nodo Q izquierdo es 10.94 y el valor para el nodo Q\nderecho es 9.16, como el máximo de los dos valores es 10.94, este es el valor que se tendría en el\nnodo raíz del árbol.\nLa respuesta correcta es: 10,94\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n8/9",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 7,
+            "bbox": null,
+            "file": "Q11/page_7.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": "¡Correcto! Efectivamente el valor para el nodo Q izquierdo es 10.94 y el valor para el nodo Q\nderecho es 9.16, como el máximo de los dos valores es 10.94, este es el valor que se tendría en el\nnodo raíz del árbol.\nLa respuesta correcta es: 10,94\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n8/9"
+      },
+      "content": {
+        "expected": [
+          "10",
+          "94"
+        ],
+        "user": "10,94"
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 2,00 sobre 2,00\nA la vista del siguiente árbol de búsqueda de un proceso de decisión de Markov, donde:\nLos arcos que parten de los nodos Q muestran la probabilidad de que el resultado de la acción\nlleve al descendiente apuntado por el arco y la recompensa puntual si finalmente se sigue ese\narco.\nLos nodos de la frontera de exploración muestran el valor V de los estados a los que se llega.\nCalcula el valor que se obtendría para el nodo en la raíz si el valor de la tasa de descuento es 𝛾=0.4.\nUtiliza una coma para separar los decimales.\n7\n3\n6\n4\n9\n0.9/\n2\n0.1/\n5\n0.2/\n8\n0.8/\nRespuesta:\n10,94\n\n¡Correcto! Efectivamente el valor para el nodo Q izquierdo es 10.94 y el valor para el nodo Q\nderecho es 9.16, como el máximo de los dos valores es 10.94, este es el valor que se tendría en el\nnodo raíz del árbol.\nLa respuesta correcta es: 10,94\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n8/9",
+        "pages": [
+          7
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q11",
+          "msg": "multipart_short_answer had less than 2 items, changed to short_answer_text"
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "number": 12,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\n¿En qué fase del proceso de minería de datos habría que responder a las siguientes preguntas?\n¿Es posible identificar tendencias generales en los valores de los atributos?\npreparación\n\n¿Cuál será la demanda de mis productos para el siguiente mes?\nactuación\n\n¿Existe alguna operación de filtrado que pueda reducir el ruido en los\nconjuntos de datos?\npreparación\n\n¿Cuál de los modelos obtenidos obtiene mejores resultados?\nanálisis\n\n¿Cuál es el grado de dispersión de los datos con los que tengo que\ntrabajar?\npreparación\n\nLa respuesta correcta es: ¿Es posible identificar tendencias generales en los valores de los atributos?\n→ preparación, ¿Cuál será la demanda de mis productos para el siguiente mes? → actuación, ¿Existe\nalguna operación de filtrado que pueda reducir el ruido en los conjuntos de datos? → preparación,\n¿Cuál de los modelos obtenidos obtiene mejores resultados? → análisis, ¿Cuál es el grado de\ndispersión de los datos con los que tengo que trabajar? → preparación\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n9/9",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [
+          "¿Es posible identificar tendencias generales en los valores de los atributos?"
+        ],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\n¿En qué fase del proceso de minería de datos habría que responder a las siguientes preguntas?\n¿Es posible identificar tendencias generales en los valores de los atributos?\npreparación\n\n¿Cuál será la demanda de mis productos para el siguiente mes?\nactuación\n\n¿Existe alguna operación de filtrado que pueda reducir el ruido en los\nconjuntos de datos?\npreparación\n\n¿Cuál de los modelos obtenidos obtiene mejores resultados?\nanálisis\n\n¿Cuál es el grado de dispersión de los datos con los que tengo que\ntrabajar?\npreparación\n\nLa respuesta correcta es: ¿Es posible identificar tendencias generales en los valores de los atributos?\n→ preparación, ¿Cuál será la demanda de mis productos para el siguiente mes? → actuación, ¿Existe\nalguna operación de filtrado que pueda reducir el ruido en los conjuntos de datos? → preparación,\n¿Cuál de los modelos obtenidos obtiene mejores resultados? → análisis, ¿Cuál es el grado de\ndispersión de los datos con los que tengo que trabajar? → preparación\n14/12/25, 20:22\nC6 - Cuestionario sobre conceptos de aprendizaje automático y por refuerzo: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1278893&cmid=3422403\n9/9",
+        "pages": [
+          8
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q12",
+          "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+        }
+      ]
+    }
+  ],
+  "issues": []
+}

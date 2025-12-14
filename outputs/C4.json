@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "C4_Cuestionario_ejercicio_de_alfa_beta_Revisi├│n_del_intento_UBUVirtual.pdf",
+    "doc_type": "moodle_attempt_review",
+    "page_count": 2
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "number": 1,
+      "kind": "multipart_short_answer",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nDado el árbol de juego que se muestra en la figura y considerando que el nodo raíz se corresponde con un nivel max, contesta a las preguntas de más\nabajo (no todas las preguntas tienen la misma puntuación, en las preguntas multi-opción, si la respuesta es correcta, se suma el 100% de su puntuación, si\nla respuesta es incorrecta, se resta el 100% de su puntuación).\n1. ¿Cuál es el conjunto de nodos en los que se producen cortes alfa?\nM, L, F\n\n2. ¿Cuál es el conjunto de nodos en los que se producen cortes beta?\nNo hay cortes de este tipo\n\n3. ¿Por qué valores va pasando la variable alfa en los siguientes nodos?\nA:\n-∞/3/6/7\n\nM:\n6/9\n\n4. ¿Por qué valores va pasando la variable beta en los siguientes nodos?\nB:\n∞/3\n\nD:\n∞/7\n\n5. ¿Cuál es el valor inicial de alfa cuando se visita los siguientes nodos? (usa -999 si es -∞, 999 si es ∞, -666 si no se visita)\nS:\n8\n, T:\n3\n, U:\n7\n\n6. ¿Cuál es el valor inicial de beta cuando se visita los siguientes nodos? (usa -999 si es -∞, 999 si es ∞, -666 si no se visita)\nT:\n8\n, U:\n8\n, V:\n999\n\n7. ¿Cuál es el valor devuelto en los siguientes nodos? (usa -666 si el nodo no se visita)\nG:\n5\n, F:\n4\n, O:\n2\n, Q:\n-666\n\n8. ¿Cuál es el valor calculado por el algoritmo alfa-beta para este árbol?\n7\n\n9. ¿Cuál es el mejor sucesor para el nodo raíz?\nD\n\n14/12/25, 20:21\nC4 - Cuestionario/ejercicio de alfa-beta: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1260786&cmid=3422377\n2/2",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 1,
+            "bbox": null,
+            "file": "Q1/page_1.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "items": [
+          {
+            "index": 1,
+            "prompt": "¿Cuál es el conjunto de nodos en los que se producen cortes alfa?\nM, L, F\n",
+            "expected": null,
+            "user": null,
+            "subitems": []
+          },
+          {
+            "index": 2,
+            "prompt": "¿Cuál es el conjunto de nodos en los que se producen cortes beta?\nNo hay cortes de este tipo\n",
+            "expected": null,
+            "user": null,
+            "subitems": []
+          },
+          {
+            "index": 3,
+            "prompt": "¿Por qué valores va pasando la variable alfa en los siguientes nodos?\nA:\n-∞/3/6/7\n\nM:\n6/9\n",
+            "expected": null,
+            "user": null,
+            "subitems": [
+              {
+                "label": "A",
+                "expected": "-∞/3/6/7",
+                "user": null
+              },
+              {
+                "label": "M",
+                "expected": "6/9",
+                "user": null
+              }
+            ]
+          },
+          {
+            "index": 4,
+            "prompt": "¿Por qué valores va pasando la variable beta en los siguientes nodos?\nB:\n∞/3\n\nD:\n∞/7\n",
+            "expected": null,
+            "user": null,
+            "subitems": [
+              {
+                "label": "B",
+                "expected": "∞/3",
+                "user": null
+              },
+              {
+                "label": "D",
+                "expected": "∞/7",
+                "user": null
+              }
+            ]
+          },
+          {
+            "index": 5,
+            "prompt": "¿Cuál es el valor inicial de alfa cuando se visita los siguientes nodos? (usa -999 si es -∞, 999 si es ∞, -666 si no se visita)\nS:\n8\n, T:\n3\n, U:\n7\n",
+            "expected": null,
+            "user": null,
+            "subitems": [
+              {
+                "label": "S",
+                "expected": "8",
+                "user": null
+              },
+              {
+                "label": "T",
+                "expected": "3",
+                "user": null
+              },
+              {
+                "label": "U",
+                "expected": "7",
+                "user": null
+              }
+            ]
+          },
+          {
+            "index": 6,
+            "prompt": "¿Cuál es el valor inicial de beta cuando se visita los siguientes nodos? (usa -999 si es -∞, 999 si es ∞, -666 si no se visita)\nT:\n8\n, U:\n8\n, V:\n999\n",
+            "expected": null,
+            "user": null,
+            "subitems": [
+              {
+                "label": "T",
+                "expected": "8",
+                "user": null
+              },
+              {
+                "label": "U",
+                "expected": "8",
+                "user": null
+              },
+              {
+                "label": "V",
+                "expected": "999",
+                "user": null
+              }
+            ]
+          },
+          {
+            "index": 7,
+            "prompt": "¿Cuál es el valor devuelto en los siguientes nodos? (usa -666 si el nodo no se visita)\nG:\n5\n, F:\n4\n, O:\n2\n, Q:\n-666\n",
+            "expected": null,
+            "user": null,
+            "subitems": [
+              {
+                "label": "G",
+                "expected": "5",
+                "user": null
+              },
+              {
+                "label": "F",
+                "expected": "4",
+                "user": null
+              },
+              {
+                "label": "O",
+                "expected": "2",
+                "user": null
+              },
+              {
+                "label": "Q",
+                "expected": "-666",
+                "user": null
+              }
+            ]
+          },
+          {
+            "index": 8,
+            "prompt": "¿Cuál es el valor calculado por el algoritmo alfa-beta para este árbol?\n7\n",
+            "expected": null,
+            "user": null,
+            "subitems": []
+          },
+          {
+            "index": 9,
+            "prompt": "¿Cuál es el mejor sucesor para el nodo raíz?\nD\n\n14/12/25, 20:21\nC4 - Cuestionario/ejercicio de alfa-beta: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1260786&cmid=3422377\n2/2",
+            "expected": null,
+            "user": null,
+            "subitems": [
+              {
+                "label": "a",
+                "expected": "Revisión del intento | UBUVirtual",
+                "user": null
+              },
+              {
+                "label": "s",
+                "expected": "//ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1260786&cmid=3422377",
+                "user": null
+              }
+            ]
+          }
+        ]
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nDado el árbol de juego que se muestra en la figura y considerando que el nodo raíz se corresponde con un nivel max, contesta a las preguntas de más\nabajo (no todas las preguntas tienen la misma puntuación, en las preguntas multi-opción, si la respuesta es correcta, se suma el 100% de su puntuación, si\nla respuesta es incorrecta, se resta el 100% de su puntuación).\n1. ¿Cuál es el conjunto de nodos en los que se producen cortes alfa?\nM, L, F\n\n2. ¿Cuál es el conjunto de nodos en los que se producen cortes beta?\nNo hay cortes de este tipo\n\n3. ¿Por qué valores va pasando la variable alfa en los siguientes nodos?\nA:\n-∞/3/6/7\n\nM:\n6/9\n\n4. ¿Por qué valores va pasando la variable beta en los siguientes nodos?\nB:\n∞/3\n\nD:\n∞/7\n\n5. ¿Cuál es el valor inicial de alfa cuando se visita los siguientes nodos? (usa -999 si es -∞, 999 si es ∞, -666 si no se visita)\nS:\n8\n, T:\n3\n, U:\n7\n\n6. ¿Cuál es el valor inicial de beta cuando se visita los siguientes nodos? (usa -999 si es -∞, 999 si es ∞, -666 si no se visita)\nT:\n8\n, U:\n8\n, V:\n999\n\n7. ¿Cuál es el valor devuelto en los siguientes nodos? (usa -666 si el nodo no se visita)\nG:\n5\n, F:\n4\n, O:\n2\n, Q:\n-666\n\n8. ¿Cuál es el valor calculado por el algoritmo alfa-beta para este árbol?\n7\n\n9. ¿Cuál es el mejor sucesor para el nodo raíz?\nD\n\n14/12/25, 20:21\nC4 - Cuestionario/ejercicio de alfa-beta: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1260786&cmid=3422377\n2/2",
+        "pages": [
+          1
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,587 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "C5_Cuestionario_sobre_algoritmos_de_b├║squeda_Revisi├│n_del_intento (6).pdf",
+    "doc_type": "moodle_attempt_review",
+    "page_count": 10
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "number": 1,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Parcialmente correcta\nSe puntúa 0,75 sobre 1,00",
+        "assets": []
+      },
+      "grading": {
+        "status": "Parcialmente correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Parcialmente correcta\nSe puntúa 0,75 sobre 1,00",
+        "pages": [
+          0
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q1",
+          "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+        }
+      ]
+    },
+    {
+      "id": "Q2",
+      "number": 2,
+      "kind": "matching",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\n¿Cuáles de los siguientes son métodos de búsqueda aproximados?\na.\nEscalada profunda \nb.\nAlgoritmo genético \nc.\nEscalada simple \nd.\nRecocido simulado\nLas respuestas correctas son: Algoritmo genético, Recocido simulado, Escalada profunda, Escalada simple\nAsocia cada método de búsqueda con el tipo de algoritmo al que pertenece.\nBúsqueda mini-max\nBúsqueda con contrincante\n\nAlgoritmo A\nMétodo exacto\n\nEscalada simple\nMétodo aproximado\n\nBúsqueda primero el mejor\nMétodo exacto\n\nLa respuesta correcta es: Búsqueda mini-max → Búsqueda con contrincante, Algoritmo A → Método exacto,\nEscalada simple → Método aproximado, Búsqueda primero el mejor → Método exacto\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n1/10",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "pairs_user": [],
+        "pairs_correct": [],
+        "domain_hint": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\n¿Cuáles de los siguientes son métodos de búsqueda aproximados?\na.\nEscalada profunda \nb.\nAlgoritmo genético \nc.\nEscalada simple \nd.\nRecocido simulado\nLas respuestas correctas son: Algoritmo genético, Recocido simulado, Escalada profunda, Escalada simple\nAsocia cada método de búsqueda con el tipo de algoritmo al que pertenece.\nBúsqueda mini-max\nBúsqueda con contrincante\n\nAlgoritmo A\nMétodo exacto\n\nEscalada simple\nMétodo aproximado\n\nBúsqueda primero el mejor\nMétodo exacto\n\nLa respuesta correcta es: Búsqueda mini-max → Búsqueda con contrincante, Algoritmo A → Método exacto,\nEscalada simple → Método aproximado, Búsqueda primero el mejor → Método exacto\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n1/10",
+        "pages": [
+          0
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q3",
+      "number": 3,
+      "kind": "multi_select",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\nEn el problema del puente, una familia tiene que cruzar en medio de la noche un puente colgante que solo resiste\nel peso de dos personas. Solo se dispone de una lámpara que ilumine el camino y que impida que caigan al vacío.\nAdemás, cada miembro de la familia se mueve a distintas velocidades con lo que el tiempo que tarda cada uno es\ndistinto (1s, 3s, 6s, 8s y 12s). Cuando cruzan dos personas a la vez, el tiempo que tardar es el mayor de las dos. Se\nquiere encontrar la secuencia que permita cruzar a todos los miembros de la familia en el menor tiempo posible.\n¿Cuáles de las siguientes heurísticas serían admisibles?\na.\nNúmero de miembros de la familia que todavía no ha pasado por el tiempo que tarde el más rápido\nde ellos.\n\nb.\nNúmero de miembros de la familia que todavía no ha pasado por el tiempo que tarde el más lento de\nellos.\nc.\nNinguna de las heurísticas es admisible.\nd.\nNúmero de miembros de la familia que todavía no ha pasado por la media del tiempo que tardan en pasar\nlos miembros de la familia.\ne.\nSi faltan p miembros por pasar la suma de los p tiempos de los miembros más rápidos de la familia. \nf.\nNúmero de miembros de la familia que todavía no ha pasado al otro lado del puente. \ng.\nDoble del número de miembros de la familia que todavía no ha pasado al otro lado del puente.\nLas respuestas correctas son: Número de miembros de la familia que todavía no ha pasado al otro lado del puente.,\nNúmero de miembros de la familia que todavía no ha pasado por el tiempo que tarde el más rápido de ellos., Si\nfaltan p miembros por pasar la suma de los p tiempos de los miembros más rápidos de la familia.\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n2/10",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "options": [
+          {
+            "key": "a",
+            "text": "Número de miembros de la familia que todavía no ha pasado por el tiempo que tarde el más rápido\nde ellos.\n"
+          },
+          {
+            "key": "b",
+            "text": "Número de miembros de la familia que todavía no ha pasado por el tiempo que tarde el más lento de\nellos."
+          },
+          {
+            "key": "c",
+            "text": "Ninguna de las heurísticas es admisible."
+          },
+          {
+            "key": "d",
+            "text": "Número de miembros de la familia que todavía no ha pasado por la media del tiempo que tardan en pasar\nlos miembros de la familia."
+          },
+          {
+            "key": "e",
+            "text": "Si faltan p miembros por pasar la suma de los p tiempos de los miembros más rápidos de la familia. \nf.\nNúmero de miembros de la familia que todavía no ha pasado al otro lado del puente. \ng.\nDoble del número de miembros de la familia que todavía no ha pasado al otro lado del puente."
+          }
+        ],
+        "correct": [],
+        "user": []
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una o más de una:\nEn el problema del puente, una familia tiene que cruzar en medio de la noche un puente colgante que solo resiste\nel peso de dos personas. Solo se dispone de una lámpara que ilumine el camino y que impida que caigan al vacío.\nAdemás, cada miembro de la familia se mueve a distintas velocidades con lo que el tiempo que tarda cada uno es\ndistinto (1s, 3s, 6s, 8s y 12s). Cuando cruzan dos personas a la vez, el tiempo que tardar es el mayor de las dos. Se\nquiere encontrar la secuencia que permita cruzar a todos los miembros de la familia en el menor tiempo posible.\n¿Cuáles de las siguientes heurísticas serían admisibles?\na.\nNúmero de miembros de la familia que todavía no ha pasado por el tiempo que tarde el más rápido\nde ellos.\n\nb.\nNúmero de miembros de la familia que todavía no ha pasado por el tiempo que tarde el más lento de\nellos.\nc.\nNinguna de las heurísticas es admisible.\nd.\nNúmero de miembros de la familia que todavía no ha pasado por la media del tiempo que tardan en pasar\nlos miembros de la familia.\ne.\nSi faltan p miembros por pasar la suma de los p tiempos de los miembros más rápidos de la familia. \nf.\nNúmero de miembros de la familia que todavía no ha pasado al otro lado del puente. \ng.\nDoble del número de miembros de la familia que todavía no ha pasado al otro lado del puente.\nLas respuestas correctas son: Número de miembros de la familia que todavía no ha pasado al otro lado del puente.,\nNúmero de miembros de la familia que todavía no ha pasado por el tiempo que tarde el más rápido de ellos., Si\nfaltan p miembros por pasar la suma de los p tiempos de los miembros más rápidos de la familia.\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n2/10",
+        "pages": [
+          1
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q4",
+      "number": 4,
+      "kind": "multi_select",
+      "stem": {
+        "text": "Parcialmente correcta\nSe puntúa 0,50 sobre 1,00\nSeleccione una o más de una:\nSeleccionar las afirmaciones que sean ciertas para la búsqueda en ANCHURA ( es el factor de ramificación medio,\ny\nla profundidad de la solución menos profunda).\na.\nEn todo momento a lo largo de la ejecución del algoritmo, en la frontera de exploración nunca habrá más\n.\nb.\nEl número de nodos que se expanden a lo largo de la ejecución del algoritmo nunca será mayor que\nnodos.\nc.\nEn la frontera de exploración podría llegar a haber hasta\nnodos.\nd.\nEl número de nodos que se\nexpanden a lo largo de la\nejecución del algoritmo podría\nllegar a ser tan grande como\n.\n\nEfectivamente, por cada nivel explorado se multiplica por el\nnúmero de nodos en la frontera de exploración, si el nodo meta\nes el último nodo del nivel\n, en la frontera de exploración podría\nllegar a haber\nnodos.\nLas respuestas correctas son: En la frontera de exploración podría llegar a haber hasta\nnodos., El número de\nnodos que se expanden a lo largo de la ejecución del algoritmo podría llegar a ser tan grande como\n.\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n3/10",
+        "assets": []
+      },
+      "grading": {
+        "status": "Parcialmente correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "options": [
+          {
+            "key": "a",
+            "text": "En todo momento a lo largo de la ejecución del algoritmo, en la frontera de exploración nunca habrá más\n."
+          },
+          {
+            "key": "b",
+            "text": "El número de nodos que se expanden a lo largo de la ejecución del algoritmo nunca será mayor que\nnodos."
+          },
+          {
+            "key": "c",
+            "text": "En la frontera de exploración podría llegar a haber hasta\nnodos."
+          },
+          {
+            "key": "d",
+            "text": "El número de nodos que se\nexpanden a lo largo de la\nejecución del algoritmo podría\nllegar a ser tan grande como\n.\n\nEfectivamente, por cada nivel explorado se multiplica por el\nnúmero de nodos en la frontera de exploración, si el nodo meta\nes el último nodo del nivel\n, en la frontera de exploración podría\nllegar a haber\nnodos."
+          }
+        ],
+        "correct": [
+          "a"
+        ],
+        "user": []
+      },
+      "raw": {
+        "block_text": "Parcialmente correcta\nSe puntúa 0,50 sobre 1,00\nSeleccione una o más de una:\nSeleccionar las afirmaciones que sean ciertas para la búsqueda en ANCHURA ( es el factor de ramificación medio,\ny\nla profundidad de la solución menos profunda).\na.\nEn todo momento a lo largo de la ejecución del algoritmo, en la frontera de exploración nunca habrá más\n.\nb.\nEl número de nodos que se expanden a lo largo de la ejecución del algoritmo nunca será mayor que\nnodos.\nc.\nEn la frontera de exploración podría llegar a haber hasta\nnodos.\nd.\nEl número de nodos que se\nexpanden a lo largo de la\nejecución del algoritmo podría\nllegar a ser tan grande como\n.\n\nEfectivamente, por cada nivel explorado se multiplica por el\nnúmero de nodos en la frontera de exploración, si el nodo meta\nes el último nodo del nivel\n, en la frontera de exploración podría\nllegar a haber\nnodos.\nLas respuestas correctas son: En la frontera de exploración podría llegar a haber hasta\nnodos., El número de\nnodos que se expanden a lo largo de la ejecución del algoritmo podría llegar a ser tan grande como\n.\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n3/10",
+        "pages": [
+          2
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q5",
+      "number": 5,
+      "kind": "cloze_table",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSuponiendo el siguiente significado para las variables:\nb: factor de ramificación medio.\nd: profundidad de la solución.\nm: máxima profundidad de exploración.\nl: límite de exploración.\nC*: coste del camino solución óptimo.\nε: coste mínimo de los operadores.\nCompleta la siguiente tabla (las respuestas incorrectas restan lo que habrían sumado si hubieran sido correctas).\nComplejidad temporal\nComplejidad espacial\n¿Completo?\nProfundidad limitada\nO(b^l)\n\nO(lb)\n\nSí, si l>=d\n\nProfundización iterativa\nO(b^d)\n\nO(db)\n\nSí\n\nBúsqueda de coste uniforme\nO(b^(C*/ε))\n\nO(b^(C*/ε))\n\nSí, si ε>0\n\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n4/10",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": "Completa la siguiente tabla (las respuestas incorrectas restan lo que habrían sumado si hubieran sido correctas).",
+        "feedback": null
+      },
+      "content": {
+        "table": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSuponiendo el siguiente significado para las variables:\nb: factor de ramificación medio.\nd: profundidad de la solución.\nm: máxima profundidad de exploración.\nl: límite de exploración.\nC*: coste del camino solución óptimo.\nε: coste mínimo de los operadores.\nCompleta la siguiente tabla (las respuestas incorrectas restan lo que habrían sumado si hubieran sido correctas).\nComplejidad temporal\nComplejidad espacial\n¿Completo?\nProfundidad limitada\nO(b^l)\n\nO(lb)\n\nSí, si l>=d\n\nProfundización iterativa\nO(b^d)\n\nO(db)\n\nSí\n\nBúsqueda de coste uniforme\nO(b^(C*/ε))\n\nO(b^(C*/ε))\n\nSí, si ε>0\n\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n4/10",
+        "pages": [
+          3
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q6",
+      "number": 6,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "assets": []
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00",
+        "pages": [
+          4
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q6",
+          "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+        }
+      ]
+    },
+    {
+      "id": "Q7",
+      "number": 7,
+      "kind": "single_choice",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una:\n¿Qué solución encontrará un algoritmo primero en PROFUNDIDAD si se ejecuta para el grafo mostrado en la\nfigura? Las respuestas incorrectas restan sobre el global del cuestionario (cuando un nodo tiene varios hijos,\nasúmase que éstos se ordenan en orden lexicográfico, es decir si los hijos de B son D y F, D se expandirá antes que\nF; el nodo inicial es S, el nodo que se busca es G)\na.\nS → A → C → G\nb.\nS → A → D → G\nc.\nS → E → G\nd.\nS → A → C → D → G \nLa respuesta correcta es: S → A → C → D → G\nEn la aplicación de un algoritmo de recocido simulado, el valor del parámetro de temperatura es 10, el valor para la\nsolución actual es de 20, y el valor para el sucesor seleccionado aleatoriamente es de 13, ¿cuál es la probabilidad de\nque el sucesor se convierta en la solución actual? (usa la coma para separar los decimales, además, si la respuesta\ntiene varios decimales, es suficiente con introducir los 3 primeros)\nRespuesta:\n0,496\n\nLa respuesta correcta es: 0,49658530379141\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n5/10",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 4,
+            "bbox": null,
+            "file": "Q7/page_4.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": "figura? Las respuestas incorrectas restan sobre el global del cuestionario (cuando un nodo tiene varios hijos,",
+        "feedback": null
+      },
+      "content": {
+        "options": [
+          {
+            "key": "a",
+            "text": "S → A → C → G"
+          },
+          {
+            "key": "b",
+            "text": "S → A → D → G"
+          },
+          {
+            "key": "c",
+            "text": "S → E → G"
+          },
+          {
+            "key": "d",
+            "text": "S → A → C → D → G "
+          }
+        ],
+        "correct": [],
+        "user": []
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una:\n¿Qué solución encontrará un algoritmo primero en PROFUNDIDAD si se ejecuta para el grafo mostrado en la\nfigura? Las respuestas incorrectas restan sobre el global del cuestionario (cuando un nodo tiene varios hijos,\nasúmase que éstos se ordenan en orden lexicográfico, es decir si los hijos de B son D y F, D se expandirá antes que\nF; el nodo inicial es S, el nodo que se busca es G)\na.\nS → A → C → G\nb.\nS → A → D → G\nc.\nS → E → G\nd.\nS → A → C → D → G \nLa respuesta correcta es: S → A → C → D → G\nEn la aplicación de un algoritmo de recocido simulado, el valor del parámetro de temperatura es 10, el valor para la\nsolución actual es de 20, y el valor para el sucesor seleccionado aleatoriamente es de 13, ¿cuál es la probabilidad de\nque el sucesor se convierta en la solución actual? (usa la coma para separar los decimales, además, si la respuesta\ntiene varios decimales, es suficiente con introducir los 3 primeros)\nRespuesta:\n0,496\n\nLa respuesta correcta es: 0,49658530379141\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n5/10",
+        "pages": [
+          4
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q8",
+      "number": 8,
+      "kind": "single_choice",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una:\nDado el grafo de la figura (S es el nodo inicial y G el nodo meta), señalar la afirmación verdadera. Las respuestas\nincorrectas restan sobre el global del cuestionario.\na.\nLa heurística h es admisible para todos los nodos.\nb.\nLa heurística h no es admisible para los nodos A y C.\nc.\nLa heurística h no es admisible para los nodos A, B y D.\nd.\nLa heurística h no es admisible para los nodos S, D y E. \ne.\nLa heurística h no es admisible para los nodos B y E.\nLa respuesta correcta es: La heurística h no es admisible para los nodos S, D y E.\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n6/10",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 5,
+            "bbox": null,
+            "file": "Q8/page_5.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": "incorrectas restan sobre el global del cuestionario.",
+        "feedback": null
+      },
+      "content": {
+        "options": [
+          {
+            "key": "a",
+            "text": "La heurística h es admisible para todos los nodos."
+          },
+          {
+            "key": "b",
+            "text": "La heurística h no es admisible para los nodos A y C."
+          },
+          {
+            "key": "c",
+            "text": "La heurística h no es admisible para los nodos A, B y D."
+          },
+          {
+            "key": "d",
+            "text": "La heurística h no es admisible para los nodos S, D y E. "
+          },
+          {
+            "key": "e",
+            "text": "La heurística h no es admisible para los nodos B y E."
+          }
+        ],
+        "correct": [],
+        "user": []
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una:\nDado el grafo de la figura (S es el nodo inicial y G el nodo meta), señalar la afirmación verdadera. Las respuestas\nincorrectas restan sobre el global del cuestionario.\na.\nLa heurística h es admisible para todos los nodos.\nb.\nLa heurística h no es admisible para los nodos A y C.\nc.\nLa heurística h no es admisible para los nodos A, B y D.\nd.\nLa heurística h no es admisible para los nodos S, D y E. \ne.\nLa heurística h no es admisible para los nodos B y E.\nLa respuesta correcta es: La heurística h no es admisible para los nodos S, D y E.\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n6/10",
+        "pages": [
+          5
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q9",
+      "number": 9,
+      "kind": "single_choice",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una:\nPara el árbol de juego mostrado, determina para que valores de x será podada la rama con el icono de las tijeras. Si\nno se produce la poda para ningún valor de x, elige como respuesta «Para ninguno». Si la poda se producirá sea\ncual sea el valor de x, elige «Para todos». En los casos en los que se da una cota superior o inferior, elige la cota más\najustada para la que tendría lugar la poda de la rama (por ejemplo, si la poda tiene lugar para valores de x>=1,\nelige x>=1, en vez de x>=2)\na.\nPara ninguno.\nb.\nPara todos.\nc.\nx>=1\nd.\nx<=1\ne.\nx>=2\nf.\nx<=2\ng.\nx>=3 \nh.\nx<=3\ni.\nx>=4\nj.\nx<=4\nk.\nx>=5\nl.\nx<=5\nm. x>=6\nn.\nx<=6\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n7/10",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 6,
+            "bbox": null,
+            "file": "Q9/page_6.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "options": [
+          {
+            "key": "a",
+            "text": "Para ninguno."
+          },
+          {
+            "key": "b",
+            "text": "Para todos."
+          },
+          {
+            "key": "c",
+            "text": "x>=1"
+          },
+          {
+            "key": "d",
+            "text": "x<=1"
+          },
+          {
+            "key": "e",
+            "text": "x>=2\nf.\nx<=2\ng.\nx>=3 \nh.\nx<=3\ni.\nx>=4\nj.\nx<=4\nk.\nx>=5\nl.\nx<=5\nm. x>=6\nn.\nx<=6\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n7/10"
+          }
+        ],
+        "correct": [],
+        "user": []
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nSeleccione una:\nPara el árbol de juego mostrado, determina para que valores de x será podada la rama con el icono de las tijeras. Si\nno se produce la poda para ningún valor de x, elige como respuesta «Para ninguno». Si la poda se producirá sea\ncual sea el valor de x, elige «Para todos». En los casos en los que se da una cota superior o inferior, elige la cota más\najustada para la que tendría lugar la poda de la rama (por ejemplo, si la poda tiene lugar para valores de x>=1,\nelige x>=1, en vez de x>=2)\na.\nPara ninguno.\nb.\nPara todos.\nc.\nx>=1\nd.\nx<=1\ne.\nx>=2\nf.\nx<=2\ng.\nx>=3 \nh.\nx<=3\ni.\nx>=4\nj.\nx<=4\nk.\nx>=5\nl.\nx<=5\nm. x>=6\nn.\nx<=6\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n7/10",
+        "pages": [
+          6
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q10",
+      "number": 10,
+      "kind": "single_choice",
+      "stem": {
+        "text": "Incorrecta\nSe puntúa -1,00 sobre 1,00\nLa respuesta correcta es: x>=3\nSeleccione una:\n¿A qué búsqueda se correspondería lo mostrado en el siguiente vídeo? (NOTA 1: una respuesta incorrecta resta\ntanto como sumaría una respuesta correcta, NOTA 2: la longitud de los arcos representa el coste de seguir dicho\narco).\na.\nBúsqueda voraz\nb.\nBúsqueda A* \nc.\nBúsqueda en anchura\nd.\nNinguna de las opciones se corresponde con el tipo de búsqueda mostrado en el vídeo\nLa respuesta correcta es: Ninguna de las opciones se corresponde con el tipo de búsqueda mostrado en el vídeo\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n8/10",
+        "assets": []
+      },
+      "grading": {
+        "status": "Incorrecta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "options": [
+          {
+            "key": "a",
+            "text": "Búsqueda voraz"
+          },
+          {
+            "key": "b",
+            "text": "Búsqueda A* "
+          },
+          {
+            "key": "c",
+            "text": "Búsqueda en anchura"
+          },
+          {
+            "key": "d",
+            "text": "Ninguna de las opciones se corresponde con el tipo de búsqueda mostrado en el vídeo"
+          }
+        ],
+        "correct": [],
+        "user": []
+      },
+      "raw": {
+        "block_text": "Incorrecta\nSe puntúa -1,00 sobre 1,00\nLa respuesta correcta es: x>=3\nSeleccione una:\n¿A qué búsqueda se correspondería lo mostrado en el siguiente vídeo? (NOTA 1: una respuesta incorrecta resta\ntanto como sumaría una respuesta correcta, NOTA 2: la longitud de los arcos representa el coste de seguir dicho\narco).\na.\nBúsqueda voraz\nb.\nBúsqueda A* \nc.\nBúsqueda en anchura\nd.\nNinguna de las opciones se corresponde con el tipo de búsqueda mostrado en el vídeo\nLa respuesta correcta es: Ninguna de las opciones se corresponde con el tipo de búsqueda mostrado en el vídeo\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n8/10",
+        "pages": [
+          7
+        ]
+      },
+      "flags": {
+        "asset_required": false,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q11",
+      "number": 11,
+      "kind": "multipart_short_answer",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nAplica el algoritmo expectiminimax al árbol que se muestra más abajo y calcula el valor que se devolvería en el\nnodo raíz (usa una coma para separar la parte decimal).\nValor:\n4,8\n\n9\n0.8\n0.2\n0.1\n0.9\n5\n4\n7\n5\n9\n3\n1\n4.8 △\n.──────´ `──────.\n/ \\\n4.8 ◯ 1.4 ◯\n/ \\ / \\\n/ \\ / \\\n0.8 / 0.2 \\ 0.1 / 0.9 \\\n/ \\ / \\\n5 ▽ 4 ▽ 5 ▽ 1 ▽\n/ \\ / \\ / \\ / \\\n□ □ □ □ □ □ □ □\n9 5 4 7 5 9 3 1\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n9/10",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 8,
+            "bbox": null,
+            "file": "Q11/page_8.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "items": [
+          {
+            "index": 4,
+            "prompt": "8 △\n.──────´ `──────.\n/ \\",
+            "expected": null,
+            "user": null,
+            "subitems": []
+          },
+          {
+            "index": 4,
+            "prompt": "8 ◯ 1.4 ◯\n/ \\ / \\\n/ \\ / \\",
+            "expected": null,
+            "user": null,
+            "subitems": []
+          }
+        ]
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nAplica el algoritmo expectiminimax al árbol que se muestra más abajo y calcula el valor que se devolvería en el\nnodo raíz (usa una coma para separar la parte decimal).\nValor:\n4,8\n\n9\n0.8\n0.2\n0.1\n0.9\n5\n4\n7\n5\n9\n3\n1\n4.8 △\n.──────´ `──────.\n/ \\\n4.8 ◯ 1.4 ◯\n/ \\ / \\\n/ \\ / \\\n0.8 / 0.2 \\ 0.1 / 0.9 \\\n/ \\ / \\\n5 ▽ 4 ▽ 5 ▽ 1 ▽\n/ \\ / \\ / \\ / \\\n□ □ □ □ □ □ □ □\n9 5 4 7 5 9 3 1\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n9/10",
+        "pages": [
+          8
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": []
+    },
+    {
+      "id": "Q12",
+      "number": 12,
+      "kind": "short_answer_text",
+      "stem": {
+        "text": "Correcta\nSe puntúa 1,00 sobre 1,00\nAplica el alfa-beta multijugador para determinar los 3 valores que se asignarían a los 3 jugadores en el nodo raíz del\nsiguiente árbol.\nA:\n6\n, B:\n7\n, C:\n4\n\n(0, 6, 3)\n(7, 9, 0)\n(2, 2, 1)\n(6, 7, 4)\n(4, 5, 8)\n(7, 5, 3)\n(1, 4, 5)\n(4, 8, 2)\nC\nB\nA\nA (6,7,4) □\n.──────────────´ `──────────────.\n/ \\\nB (6,7,4) □ (4,5,8) □\n.─────´ `─────. .─────´ `─────.\n/ \\ / \\\nC (0,6,3) □ (6,7,4) □ (4,5,8) □ (1,4,5) □\n.´ `. .´ `. .´ `. .´ `.\n/ \\ / \\ / \\ / \\\n□ □ □ □ □ □ □ □\n(0,6,3) (7,9,0) (2,2,1) (6,7,4) (4,5,8) (7,5,3) (1,4,5) (4,8,2)\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n10/10",
+        "assets": [
+          {
+            "type": "full_page",
+            "page": 9,
+            "bbox": null,
+            "file": "Q12/page_9.png"
+          }
+        ]
+      },
+      "grading": {
+        "status": "Correcta",
+        "score_awarded": null,
+        "score_max": null,
+        "penalty_rule_text": null,
+        "feedback": null
+      },
+      "content": {
+        "expected": [],
+        "user": null
+      },
+      "raw": {
+        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00\nAplica el alfa-beta multijugador para determinar los 3 valores que se asignarían a los 3 jugadores en el nodo raíz del\nsiguiente árbol.\nA:\n6\n, B:\n7\n, C:\n4\n\n(0, 6, 3)\n(7, 9, 0)\n(2, 2, 1)\n(6, 7, 4)\n(4, 5, 8)\n(7, 5, 3)\n(1, 4, 5)\n(4, 8, 2)\nC\nB\nA\nA (6,7,4) □\n.──────────────´ `──────────────.\n/ \\\nB (6,7,4) □ (4,5,8) □\n.─────´ `─────. .─────´ `─────.\n/ \\ / \\\nC (0,6,3) □ (6,7,4) □ (4,5,8) □ (1,4,5) □\n.´ `. .´ `. .´ `. .´ `.\n/ \\ / \\ / \\ / \\\n□ □ □ □ □ □ □ □\n(0,6,3) (7,9,0) (2,2,1) (6,7,4) (4,5,8) (7,5,3) (1,4,5) (4,8,2)\n14/12/25, 20:21\nC5 - Cuestionario sobre algoritmos de búsqueda: Revisión del intento | UBUVirtual\nhttps://ubuvirtual.ubu.es/mod/quiz/review.php?attempt=1267300&cmid=3422378\n10/10",
+        "pages": [
+          9
+        ]
+      },
+      "flags": {
+        "asset_required": true,
+        "math_or_symbols_risky": false,
+        "requires_external_media": false
+      },
+      "issues": [
+        {
+          "level": "warn",
+          "code": "NO_CORRECT_ANSWER_FOUND",
+          "where": "Q12",
+          "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
+        }
+      ]
+    }
+  ],
+  "issues": []
+}
