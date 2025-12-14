@@ -1,0 +1,85 @@
+# Creador de tests desde PDFs (UBUVirtual / Moodle)
+
+Este repositorio define y (en fases posteriores) implementa un pipeline para convertir PDFs de **UBUVirtual / Moodle “Revisión del intento”** en un **JSON canónico v1 (schema 1.0)**, preservando contenido complejo (fórmulas, árboles, tablas de verdad, diagramas) mediante **assets renderizados** cuando la extracción de texto no sea fiable.
+
+El HTML final se abordará en una fase posterior. En v1 el objetivo es que el JSON sea **determinista, validable y trazable**.
+
+## Alcance v1
+
+### Entrada
+
+- PDFs **digitales** (no escaneados) con formato “Revisión del intento”, que contienen:
+  - bloques marcados como `Pregunta N`.
+  - diferentes tipos de cuestión: selección única y múltiple, emparejamiento (`matching`), respuesta corta, numérica, completar/blancos etiquetados, tablas, preguntas multipart y referencias a vídeo.
+  - información de corrección: estado (Correcta/Parcial/Incorrecta), “La(s) respuesta(s) correcta(s)…”, puntuaciones y penalizaciones.
+
+### Salida v1
+
+- `ExamDoc` JSON conforme a `schemas/exam_doc-1.0.schema.json`.
+- Política de assets v1: si `flags.asset_required` es verdadero se genera un asset de tipo **full page** (`type="full_page"`) para cada página implicada. Estos assets preservan contenido visual (fórmulas, tablas, árboles) cuando la extracción de texto no es suficiente.
+
+## Documentación del proyecto
+
+Dentro del repositorio encontrarás varios documentos de especificación que sirven de contrato para la implementación:
+
+- **`SPEC_v1.md`** – especificación funcional y criterios de aceptación de la versión 1.
+- **`ARCHITECTURE.md`** – descripción del pipeline de procesamiento y APIs internas.
+- **`DATA_MODEL.md`** – contrato del JSON canónico (tipos, campos y su semántica).
+- **`RULES_v1.md`** – reglas humanas para segmentación, tipado, flags, grading e incidencias.
+- **`ASSETS_v1.md`** – política y convención de ficheros de assets para la versión 1.
+- **`TEST_PLAN.md`** – plan de pruebas y definición de golden tests.
+- **`ROADMAP.md`** – roadmap de fases y evolución del proyecto.
+
+## Estructura del repositorio
+
+```text
+creador-de-tests/
+  README.md            # Introducción y uso del repositorio
+  SPEC_v1.md           # Especificación funcional
+  ARCHITECTURE.md      # Descripción del pipeline y APIs internas
+  DATA_MODEL.md        # Contrato del formato de datos canónico
+  RULES_v1.md          # Reglas de segmentación, tipado y flags
+  ASSETS_v1.md         # Política de assets y convenciones
+  TEST_PLAN.md         # Plan de pruebas y golden tests
+  ROADMAP.md           # Hoja de ruta y fases futuras
+  CHANGELOG.md         # Historial de cambios (se añadirá con el tiempo)
+
+  schemas/
+    exam_doc-1.0.schema.json  # Schema JSON para validar los ficheros de salida
+
+  rules/
+    rules-1.0.yaml       # Reglas YAML que implementa el motor de tipado y flags
+
+  src/
+    creador_tests/
+      __init__.py
+      cli.py
+      core/              # Tipos e infraestructura de normalización y reglas
+      pdf/               # Módulos de extracción y segmentación de PDFs
+      parse/             # Extractores por tipo de pregunta
+      assets/            # Gestión y renderizado de assets
+      validate/          # Validación de JSON contra el schema
+      renderers/         # Futuros renderizadores (p.ej. HTML)
+
+  tests/
+    test_schema_validation.py  # Validación de outputs contra el schema
+    …
+
+  fixtures/             # PDFs de entrada (C1..C8…) proporcionados por el usuario
+  golden/               # Salidas esperadas (JSON) para los tests de regresión
+    questions/          # Golden individual por pregunta representativa
+  outputs/              # Carpeta para salidas generadas (no versionada)
+  assets_out/           # Carpeta para assets renderizados (no versionada)
+```
+
+## Instalación y uso del CLI (cuando esté implementado)
+
+El CLI previsto se definirá en `src/creador_tests/cli.py`. De manera orientativa, los comandos serán:
+
+```bash
+creador-tests parse --in <PDF> --out <JSON> --assets-out <directorio>
+creador-tests validate --in <JSON> --schema schemas/exam_doc-1.0.schema.json
+creador-tests batch --in fixtures/ --out outputs/ --assets-out assets_out/
+```
+
+Consulta `SPEC_v1.md` para obtener una descripción detallada de los requisitos y `TEST_PLAN.md` para ver cómo se validan los resultados.

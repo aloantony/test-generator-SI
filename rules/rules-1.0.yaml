@@ -1,0 +1,124 @@
+version: "1.0"
+
+segmentation:
+  primary_markers:
+    - regex: '^\\s*Pregunta\\s+(\\d+)\\b'
+  secondary_markers:
+    - contains: "Seleccione una:"
+    - contains: "Seleccione una o más de una:"
+    - contains: "Asocia"
+    - contains: "Respuesta:"
+    - contains: "Valor:"
+    - contains: "La respuesta correcta es:"
+    - contains: "Las respuestas correctas son:"
+    - contains: "Completa la siguiente tabla"
+
+typing:
+  # Orden = prioridad (mayor primero)
+  detectors:
+    - id: multipart_short_answer
+      kind: multipart_short_answer
+      priority: 100
+      when:
+        - regex_repeated:
+            pattern: '^\\s*\\d+\\.'
+            min_count: 2
+
+    - id: matching
+      kind: matching
+      priority: 90
+      when:
+        - any:
+            - contains: "Asocia"
+            - regex: 'La respuesta correcta es:\\s*.*->.*'
+
+    - id: multi_select
+      kind: multi_select
+      priority: 80
+      when:
+        - contains: "Seleccione una o más de una:"
+
+    - id: single_choice
+      kind: single_choice
+      priority: 70
+      when:
+        - contains: "Seleccione una:"
+
+    - id: cloze_table
+      kind: cloze_table
+      priority: 60
+      when:
+        - contains: "Completa la siguiente tabla"
+
+    - id: cloze_labeled_blanks
+      kind: cloze_labeled_blanks
+      priority: 55
+      when:
+        - regex_repeated:
+            pattern: '^\\s*[A-Za-z]{1,4}\\s*:\\s*'
+            min_count: 2
+
+    - id: external_media_reference
+      kind: external_media_reference
+      priority: 50
+      when:
+        - regex: '\\bvídeo\\b|\\bvideo\\b'
+
+    - id: numeric
+      kind: numeric
+      priority: 40
+      when:
+        - all:
+            - any:
+                - contains: "Respuesta:"
+                - contains: "Valor:"
+            - any:
+                - regex: 'Respuesta:\\s*[-+]?\\d+[\\.,]?\\d*'
+                - regex: 'Valor:\\s*[-+]?\\d+[\\.,]?\\d*'
+
+    - id: short_answer_text
+      kind: short_answer_text
+      priority: 30
+      when:
+        - contains: "Respuesta:"
+
+flags:
+  asset_required:
+    any_contains:
+      - "figura"
+      - "tabla de verdad"
+      - "árbol"
+      - "rama"
+      - "grafo"
+    any_regex:
+      - '^\\s*[a-eA-E]\\.'
+    option_text_minlen: 2
+
+  math_or_symbols_risky:
+    any_regex:
+      - '[¬∧∨→↔∀∃⊥⊤]'
+      - '\\triangleq|\\textrm'
+      - '\\bgamma\\b|\\bπ\\b|\\bPDM\\b'
+
+  requires_external_media:
+    any_regex:
+      - '\\bvídeo\\b|\\bvideo\\b'
+
+grading:
+  status_markers:
+    correct: "Correcta"
+    partial: "Parcialmente correcta"
+    incorrect: "Incorrecta"
+
+  score_regex:
+    awarded_max: 'Se puntúa\\s*([-+]?\\d+[\\.,]?\\d*)\\s*sobre\\s*([-+]?\\d+[\\.,]?\\d*)'
+
+  penalty_text_regex:
+    - 'Las respuestas incorrectas restan.*'
+    - 'restan.*'
+
+assets:
+  policy_v1:
+    when_asset_required:
+      default_asset_type: "full_page"
+      attempt_page_clip: false

@@ -1,0 +1,381 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://creador-tests.local/schema/exam_doc-1.0.json",
+  "title": "ExamDoc",
+  "type": "object",
+  "required": ["schema_version", "source", "questions", "issues"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "source": { "$ref": "#/$defs/Source" },
+    "questions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Question" }
+    },
+    "issues": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Issue" }
+    }
+  },
+  "$defs": {
+    "Source": {
+      "type": "object",
+      "required": ["file_name", "doc_type", "page_count"],
+      "properties": {
+        "file_name": { "type": "string", "minLength": 1 },
+        "doc_type": { "type": "string", "enum": ["moodle_attempt_review"] },
+        "page_count": { "type": "integer", "minimum": 1 }
+      },
+      "additionalProperties": false
+    },
+    "Issue": {
+      "type": "object",
+      "required": ["level", "code", "where", "msg"],
+      "properties": {
+        "level": { "type": "string", "enum": ["info", "warn", "error"] },
+        "code": {
+          "type": "string",
+          "enum": [
+            "OPTIONS_MISSING_TEXT",
+            "MATH_TEXT_LOSS",
+            "TABLE_STRUCTURE_LOST",
+            "NO_CORRECT_ANSWER_FOUND",
+            "USER_ANSWER_NOT_FOUND",
+            "EXTERNAL_MEDIA_REQUIRED",
+            "PARTIAL_SCORING_DETECTED"
+          ]
+        },
+        "where": { "type": "string", "minLength": 1 },
+        "msg": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "Asset": {
+      "type": "object",
+      "required": ["type", "page", "file"],
+      "properties": {
+        "type": { "type": "string", "enum": ["full_page", "page_clip"] },
+        "page": { "type": "integer", "minimum": 0 },
+        "bbox": {
+          "type": ["array", "null"],
+          "items": { "type": "number" },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "file": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "Stem": {
+      "type": "object",
+      "required": ["text", "assets"],
+      "properties": {
+        "text": { "type": "string" },
+        "assets": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/Asset" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "Flags": {
+      "type": "object",
+      "required": ["asset_required", "math_or_symbols_risky", "requires_external_media"],
+      "properties": {
+        "asset_required": { "type": "boolean" },
+        "math_or_symbols_risky": { "type": "boolean" },
+        "requires_external_media": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "Grading": {
+      "type": ["object", "null"],
+      "required": ["status", "score_awarded", "score_max", "penalty_rule_text", "feedback"],
+      "properties": {
+        "status": {
+          "type": ["string", "null"],
+          "enum": ["Correcta", "Parcialmente correcta", "Incorrecta", null]
+        },
+        "score_awarded": { "type": ["number", "null"] },
+        "score_max": { "type": ["number", "null"] },
+        "penalty_rule_text": { "type": ["string", "null"] },
+        "feedback": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "Raw": {
+      "type": "object",
+      "required": ["block_text", "pages"],
+      "properties": {
+        "block_text": { "type": "string" },
+        "pages": {
+          "type": "array",
+          "items": { "type": "integer", "minimum": 0 },
+          "minItems": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "Option": {
+      "type": "object",
+      "required": ["key", "text"],
+      "properties": {
+        "key": { "type": "string", "pattern": "^[a-eA-E]$" },
+        "text": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "Pair": {
+      "type": "object",
+      "required": ["left", "right"],
+      "properties": {
+        "left": { "type": "string", "minLength": 1 },
+        "right": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "NumericFormat": {
+      "type": "object",
+      "required": ["decimal_separator", "round_decimals", "tolerance"],
+      "properties": {
+        "decimal_separator": { "type": "string", "enum": [",", "."] },
+        "round_decimals": { "type": ["integer", "null"], "minimum": 0 },
+        "tolerance": { "type": ["number", "null"], "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "LabeledBlank": {
+      "type": "object",
+      "required": ["label", "expected", "user"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "expected": { "type": ["string", "null"] },
+        "user": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "MultipartItem": {
+      "type": "object",
+      "required": ["index", "prompt", "expected", "user", "subitems"],
+      "properties": {
+        "index": { "type": "integer", "minimum": 1 },
+        "prompt": { "type": "string" },
+        "expected": { "type": ["string", "null"] },
+        "user": { "type": ["string", "null"] },
+        "subitems": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/LabeledBlank" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "QuestionBase": {
+      "type": "object",
+      "required": ["id", "number", "kind", "stem", "grading", "content", "raw", "flags", "issues"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "number": { "type": "integer", "minimum": 1 },
+        "kind": { "type": "string" },
+        "stem": { "$ref": "#/$defs/Stem" },
+        "grading": { "$ref": "#/$defs/Grading" },
+        "content": { "type": "object" },
+        "raw": { "$ref": "#/$defs/Raw" },
+        "flags": { "$ref": "#/$defs/Flags" },
+        "issues": { "type": "array", "items": { "$ref": "#/$defs/Issue" } }
+      },
+      "additionalProperties": false
+    },
+    "QuestionSingleChoice": {
+      "allOf": [
+        { "$ref": "#/$defs/QuestionBase" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "single_choice" },
+            "content": {
+              "type": "object",
+              "required": ["options", "correct", "user"],
+              "properties": {
+                "options": { "type": "array", "items": { "$ref": "#/$defs/Option" }, "minItems": 2 },
+                "correct": { "type": "array", "items": { "type": "string", "pattern": "^[a-eA-E]$" }, "minItems": 0, "maxItems": 1 },
+                "user": { "type": "array", "items": { "type": "string", "pattern": "^[a-eA-E]$" }, "minItems": 0, "maxItems": 1 }
+              },
+              "additionalProperties": false
+            }
+          }
+        }
+      ]
+    },
+    "QuestionMultiSelect": {
+      "allOf": [
+        { "$ref": "#/$defs/QuestionBase" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "multi_select" },
+            "content": {
+              "type": "object",
+              "required": ["options", "correct", "user"],
+              "properties": {
+                "options": { "type": "array", "items": { "$ref": "#/$defs/Option" }, "minItems": 2 },
+                "correct": { "type": "array", "items": { "type": "string", "pattern": "^[a-eA-E]$" } },
+                "user": { "type": "array", "items": { "type": "string", "pattern": "^[a-eA-E]$" } }
+              },
+              "additionalProperties": false
+            }
+          }
+        }
+      ]
+    },
+    "QuestionMatching": {
+      "allOf": [
+        { "$ref": "#/$defs/QuestionBase" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "matching" },
+            "content": {
+              "type": "object",
+              "required": ["pairs_user", "pairs_correct", "domain_hint"],
+              "properties": {
+                "domain_hint": { "type": ["string", "null"] },
+                "pairs_user": { "type": "array", "items": { "$ref": "#/$defs/Pair" } },
+                "pairs_correct": { "type": "array", "items": { "$ref": "#/$defs/Pair" } }
+              },
+              "additionalProperties": false
+            }
+          }
+        }
+      ]
+    },
+    "QuestionShortAnswerText": {
+      "allOf": [
+        { "$ref": "#/$defs/QuestionBase" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "short_answer_text" },
+            "content": {
+              "type": "object",
+              "required": ["expected", "user"],
+              "properties": {
+                "expected": { "type": "array", "items": { "type": "string" } },
+                "user": { "type": ["string", "null"] }
+              },
+              "additionalProperties": false
+            }
+          }
+        }
+      ]
+    },
+    "QuestionNumeric": {
+      "allOf": [
+        { "$ref": "#/$defs/QuestionBase" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "numeric" },
+            "content": {
+              "type": "object",
+              "required": ["expected", "user", "numeric_format"],
+              "properties": {
+                "expected": { "type": "array", "items": { "type": "string" } },
+                "user": { "type": ["string", "null"] },
+                "numeric_format": { "$ref": "#/$defs/NumericFormat" }
+              },
+              "additionalProperties": false
+            }
+          }
+        }
+      ]
+    },
+    "QuestionClozeLabeled": {
+      "allOf": [
+        { "$ref": "#/$defs/QuestionBase" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "cloze_labeled_blanks" },
+            "content": {
+              "type": "object",
+              "required": ["blanks"],
+              "properties": {
+                "blanks": { "type": "array", "items": { "$ref": "#/$defs/LabeledBlank" }, "minItems": 1 }
+              },
+              "additionalProperties": false
+            }
+          }
+        }
+      ]
+    },
+    "QuestionClozeTable": {
+      "allOf": [
+        { "$ref": "#/$defs/QuestionBase" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "cloze_table" },
+            "content": {
+              "type": "object",
+              "required": ["table"],
+              "properties": {
+                "table": { "type": ["object", "null"] }
+              },
+              "additionalProperties": false
+            }
+          }
+        }
+      ]
+    },
+    "QuestionMultipart": {
+      "allOf": [
+        { "$ref": "#/$defs/QuestionBase" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "multipart_short_answer" },
+            "content": {
+              "type": "object",
+              "required": ["items"],
+              "properties": {
+                "items": { "type": "array", "items": { "$ref": "#/$defs/MultipartItem" }, "minItems": 2 }
+              },
+              "additionalProperties": false
+            }
+          }
+        }
+      ]
+    },
+    "QuestionExternalMedia": {
+      "allOf": [
+        { "$ref": "#/$defs/QuestionBase" },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "external_media_reference" },
+            "content": {
+              "type": "object",
+              "required": ["reference_text"],
+              "properties": {
+                "reference_text": { "type": "string", "minLength": 1 }
+              },
+              "additionalProperties": false
+            }
+          }
+        }
+      ]
+    },
+    "Question": {
+      "oneOf": [
+        { "$ref": "#/$defs/QuestionSingleChoice" },
+        { "$ref": "#/$defs/QuestionMultiSelect" },
+        { "$ref": "#/$defs/QuestionMatching" },
+        { "$ref": "#/$defs/QuestionShortAnswerText" },
+        { "$ref": "#/$defs/QuestionNumeric" },
+        { "$ref": "#/$defs/QuestionClozeLabeled" },
+        { "$ref": "#/$defs/QuestionClozeTable" },
+        { "$ref": "#/$defs/QuestionMultipart" },
+        { "$ref": "#/$defs/QuestionExternalMedia" }
+      ]
+    }
+  }
+}
