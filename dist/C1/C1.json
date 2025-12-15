@@ -7,40 +7,6 @@
   },
   "questions": [
     {
-      "id": "Q1",
-      "number": 1,
-      "kind": "short_answer_text",
-      "stem": {
-        "text": "Correcta\nSe puntúa 1,00 sobre 1,00",
-        "assets": []
-      },
-      "grading": {
-        "status": "Correcta",
-        "score_awarded": null,
-        "score_max": null,
-        "penalty_rule_text": null,
-        "feedback": null
-      },
-      "content": {
-        "expected": [],
-        "user": null
-      },
-      "raw": {
-        "block_text": "Correcta\nSe puntúa 1,00 sobre 1,00",
-        "pages": [
-          0
-        ]
-      },
-      "flags": {
-        "asset_required": false,
-        "math_or_symbols_risky": false,
-        "requires_external_media": false
-      },
-      "issues": [
-        "UNKNOWN_KIND_FALLBACK"
-      ]
-    },
-    {
       "id": "Q2",
       "number": 2,
       "kind": "matching",
