@@ -30,9 +30,7 @@ typing:
       when:
         - any:
             - contains: "Asocia"
-            - contains: "se corresponden"
-            - contains: "corresponden"
-            - regex: 'La respuesta correcta es:\\s*.*[→-]>.+'
+            - regex: 'La respuesta correcta es:\\s*.*->.*'
 
     - id: multi_select
       kind: multi_select

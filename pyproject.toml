@@ -27,11 +27,13 @@ dependencies = [
     "PyMuPDF>=1.23.0",
     "PyYAML>=6.0",
     "jsonschema>=4.17.0",
+    "jinja2>=3.0.0",
 ]
 
 [project.optional-dependencies]
 dev = [
     "pytest>=7.0.0",
+    "beautifulsoup4>=4.9.0",
 ]
 
 [project.scripts]

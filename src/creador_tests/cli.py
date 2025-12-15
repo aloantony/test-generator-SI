@@ -33,36 +33,32 @@ from .core import normalize
 from .pdf import extract as pdf_extract
 from .pdf import segment as pdf_segment
 from .parse import typify as parse_typify
-from .parse import extract as parse_extract
-from .parse import grading as parse_grading
-from .parse import flags as parse_flags
-from .assets import render as assets_render
 from .validate import schema_validate
 from .core.types import ExamDoc
+from .renderers import ubuvirtual
 
 
 def _parse_pdf(in_path: Path, assets_out: Path) -> dict:
     """Parse a single PDF and return its JSON representation.
 
-    Implements the full v1 pipeline:
-    1. Extract and normalize text from PDF
-    2. Segment into question blocks
-    3. Detect question kind
-    4. Extract content based on kind
-    5. Extract grading information
-    6. Detect flags
-    7. Render assets if required
-    8. Build final JSON structure
+    This function currently implements a minimal pipeline: it extracts
+    text from the PDF using PyMuPDF, normalizes it, segments it into
+    question blocks based on markers defined in the rules file, and
+    assigns each block a placeholder ``kind``. A full implementation
+    should invoke the type-specific extractors to populate the
+    ``content`` field of each question. In v1 this is left as an
+    exercise for the implementer.
 
     Args:
         in_path: Path to the input PDF.
         assets_out: Directory where image assets should be written.
 
     Returns:
-        A Python dict compliant with the JSON schema.
+        A Python dict compliant with the JSON schema (to the extent
+        currently implemented).
     """
     pages = pdf_extract.extract_pdf(str(in_path))
-    # Normalize each page
+    # Flatten all page texts into a single string with page breaks
     normalized_pages: List[str] = []
     for page in pages:
         text = page["text"]
@@ -71,107 +67,29 @@ def _parse_pdf(in_path: Path, assets_out: Path) -> dict:
     blocks = pdf_segment.segment_pages(normalized_pages)
     questions: List[dict] = []
     for block in blocks:
-        block_text = block["text"]
-        
         # Determine kind via typify rules
-        kind = parse_typify.detect_kind(block_text)
-        
-        # If kind is unknown, use short_answer_text as fallback (schema doesn't allow "unknown")
-        if kind == "unknown":
-            kind = "short_answer_text"
-        
-        # Extract content based on kind
-        content = parse_extract.extract_content(kind, block_text)
-        
-        # Schema compliance fixes
-        issues = []
-        
-        # If we had to use fallback, add an issue
-        if parse_typify.detect_kind(block_text) == "unknown":
-            issues.append({
-                "level": "warn",
-                "code": "NO_CORRECT_ANSWER_FOUND",
-                "where": f"Q{block['number']}",
-                "msg": "Question type could not be reliably detected, using short_answer_text as fallback"
-            })
-        
-        # Fix multipart_short_answer: schema requires minItems: 2
-        if kind == "multipart_short_answer" and len(content.get("items", [])) < 2:
-            # Not enough items, change to short_answer_text
-            kind = "short_answer_text"
-            content = parse_extract.extract_content(kind, block_text)
-            issues.append({
-                "level": "warn",
-                "code": "NO_CORRECT_ANSWER_FOUND",
-                "where": f"Q{block['number']}",
-                "msg": "multipart_short_answer had less than 2 items, changed to short_answer_text"
-            })
-        
-        # Fix single_choice: schema requires maxItems: 1 for correct
-        if kind == "single_choice":
-            correct_list = content.get("correct", [])
-            if len(correct_list) > 1:
-                # Too many correct answers, take only first
-                content["correct"] = correct_list[:1]
-                issues.append({
-                    "level": "warn",
-                    "code": "NO_CORRECT_ANSWER_FOUND",
-                    "where": f"Q{block['number']}",
-                    "msg": "single_choice had multiple correct answers, only first kept (may be misclassified)"
-                })
-        
-        # Fix multi_select: schema requires minItems: 2 for options
-        if kind == "multi_select" and len(content.get("options", [])) < 2:
-            # Not enough options, likely due to extraction failure
-            # Change to short_answer_text as fallback
-            kind = "short_answer_text"
-            content = parse_extract.extract_content(kind, block_text)
-            issues.append({
-                "level": "warn",
-                "code": "OPTIONS_MISSING_TEXT",
-                "where": f"Q{block['number']}",
-                "msg": "multi_select had less than 2 options, changed to short_answer_text"
-            })
-        
-        # Extract grading information
-        grading_dict = parse_grading.extract_grading(block_text)
-        # Convert to schema format (all fields required, nullable)
-        grading = {
-            "status": grading_dict.get("status"),
-            "score_awarded": grading_dict.get("score_awarded"),
-            "score_max": grading_dict.get("score_max"),
-            "penalty_rule_text": grading_dict.get("penalty_rule_text"),
-            "feedback": grading_dict.get("feedback"),
-        }
-        
-        # Detect flags (needs content to check for empty options)
-        flags = parse_flags.detect_flags(block_text, content)
-        
+        kind = parse_typify.detect_kind(block["text"])
         question = {
             "id": f"Q{block['number']}",
             "number": block["number"],
             "kind": kind,
             "stem": {
-                "text": block_text,  # Will be updated with assets below
+                "text": block["text"],
                 "assets": []
             },
-            "grading": grading,
-            "content": content,
+            "grading": None,
+            "content": {},
             "raw": {
-                "block_text": block_text,
+                "block_text": block["text"],
                 "pages": block["pages"]
             },
-            "flags": flags,
-            "issues": issues
+            "flags": {
+                "asset_required": False,
+                "math_or_symbols_risky": False,
+                "requires_external_media": False
+            },
+            "issues": []
         }
-        
-        # Render assets if required
-        if flags.get("asset_required", False):
-            assets = assets_render.render_assets_for_question(
-                in_path, question, assets_out, question["id"]
-            )
-            question["stem"]["assets"] = assets
-        
         questions.append(question)
 
     exam_doc: dict = {
@@ -229,6 +147,42 @@ def _cmd_batch(args: argparse.Namespace) -> None:
         print(f"Processed {pdf} -> {out_path}")
 
 
+def _cmd_render_html(args: argparse.Namespace) -> None:
+    """Handler for the ``render-html`` subcommand."""
+    from jinja2 import Environment, FileSystemLoader, select_autoescape
+    
+    json_path = Path(args.input).resolve()
+    template_path = Path(args.template).resolve()
+    out_path = Path(args.output).resolve()
+    include_solutions = getattr(args, "include_solutions", False)
+    
+    # Load JSON
+    with json_path.open("r", encoding="utf-8") as f:
+        exam_doc = json.load(f)
+    
+    # Build context
+    context = ubuvirtual.build_exam_context(exam_doc)
+    
+    # Setup Jinja2 environment
+    template_dir = template_path.parent
+    template_name = template_path.name
+    env = Environment(
+        loader=FileSystemLoader(str(template_dir)),
+        autoescape=select_autoescape(["html", "xml"])
+    )
+    template = env.get_template(template_name)
+    
+    # Render
+    html_output = template.render(exam=context, include_solutions=include_solutions)
+    
+    # Write output
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with out_path.open("w", encoding="utf-8") as f:
+        f.write(html_output)
+    
+    print(f"Rendered HTML to {out_path}")
+
+
 def main(argv: List[str] | None = None) -> None:
     """Entry point for the CLI.
 
@@ -257,6 +211,15 @@ def main(argv: List[str] | None = None) -> None:
     p_batch.add_argument("--out", dest="output", required=True, help="Output directory for JSON files")
     p_batch.add_argument("--assets-out", dest="assets_out", required=True, help="Directory for assets")
     p_batch.set_defaults(func=_cmd_batch)
+
+    # Render HTML subcommand
+    p_render = subparsers.add_parser("render-html", help="Render JSON to HTML using Jinja2 template")
+    p_render.add_argument("--in", dest="input", required=True, help="Input JSON file")
+    p_render.add_argument("--template", dest="template", required=True, help="Jinja2 template file")
+    p_render.add_argument("--out", dest="output", required=True, help="Output HTML file")
+    p_render.add_argument("--include-solutions", dest="include_solutions", action="store_true", 
+                         help="Include solution information in output")
+    p_render.set_defaults(func=_cmd_render_html)
 
     args = parser.parse_args(argv)
     args.func(args)
