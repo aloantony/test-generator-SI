@@ -33,6 +33,8 @@ from .core import normalize
 from .pdf import extract as pdf_extract
 from .pdf import segment as pdf_segment
 from .parse import typify as parse_typify
+from .parse import grading, flags
+from .parse.extract import extract_content
 from .validate import schema_validate
 from .core.types import ExamDoc
 from .renderers import ubuvirtual
@@ -41,21 +43,17 @@ from .renderers import ubuvirtual
 def _parse_pdf(in_path: Path, assets_out: Path) -> dict:
     """Parse a single PDF and return its JSON representation.
 
-    This function currently implements a minimal pipeline: it extracts
-    text from the PDF using PyMuPDF, normalizes it, segments it into
-    question blocks based on markers defined in the rules file, and
-    assigns each block a placeholder ``kind``. A full implementation
-    should invoke the type-specific extractors to populate the
-    ``content`` field of each question. In v1 this is left as an
-    exercise for the implementer.
+    This function implements the full pipeline: it extracts text from the PDF,
+    normalizes it, segments it into question blocks, detects question types,
+    extracts content, grading information, and flags. Blocks that contain
+    only grading information are merged with the previous question.
 
     Args:
         in_path: Path to the input PDF.
         assets_out: Directory where image assets should be written.
 
     Returns:
-        A Python dict compliant with the JSON schema (to the extent
-        currently implemented).
+        A Python dict compliant with the JSON schema.
     """
     pages = pdf_extract.extract_pdf(str(in_path))
     # Flatten all page texts into a single string with page breaks
@@ -66,31 +64,62 @@ def _parse_pdf(in_path: Path, assets_out: Path) -> dict:
 
     blocks = pdf_segment.segment_pages(normalized_pages)
     questions: List[dict] = []
+    prev_q: dict | None = None
+
     for block in blocks:
-        # Determine kind via typify rules
-        kind = parse_typify.detect_kind(block["text"])
+        block_text = block["text"]
+        kind = parse_typify.detect_kind(block_text)
+        grad = grading.extract_grading(block_text)
+
+        # Check if this block is only grading information (no actual question content)
+        is_grading_only = (
+            kind == "unknown" and
+            any([grad.get("status"), grad.get("score_awarded") is not None, grad.get("score_max") is not None])
+        )
+
+        if is_grading_only and prev_q is not None:
+            # Merge grading information with the previous question
+            prev_q["grading"] = grad
+            continue  # Skip creating a new question for this block
+
+        # Create a new question
+        # If kind is still unknown, assign a default type that the schema accepts
+        # Use "short_answer_text" as fallback since it's the most generic type
+        if kind == "unknown":
+            kind = "short_answer_text"
+            content = extract_content(kind, block_text)
+            # Add an issue to indicate this question couldn't be classified automatically
+            issues = ["UNKNOWN_KIND_FALLBACK"]
+        else:
+            # Extract content based on the detected kind
+            content = extract_content(kind, block_text)
+            issues = []
+
+        # Calculate flags based on text and extracted content
+        question_flags = flags.detect_flags(block_text, content)
+
         question = {
             "id": f"Q{block['number']}",
             "number": block["number"],
             "kind": kind,
             "stem": {
-                "text": block["text"],
+                "text": block_text,
                 "assets": []
             },
-            "grading": None,
-            "content": {},
+            "grading": grad if grad.get("status") or grad.get("score_awarded") is not None else None,
+            "content": content,
             "raw": {
-                "block_text": block["text"],
+                "block_text": block_text,
                 "pages": block["pages"]
             },
-            "flags": {
-                "asset_required": False,
-                "math_or_symbols_risky": False,
-                "requires_external_media": False
-            },
-            "issues": []
+            "flags": question_flags,
+            "issues": issues
         }
+
         questions.append(question)
+        prev_q = question
+
+    exam_issues = []
 
     exam_doc: dict = {
         "schema_version": "1.0",
@@ -100,7 +129,7 @@ def _parse_pdf(in_path: Path, assets_out: Path) -> dict:
             "page_count": len(pages)
         },
         "questions": questions,
-        "issues": []
+        "issues": exam_issues
     }
     return exam_doc
 
