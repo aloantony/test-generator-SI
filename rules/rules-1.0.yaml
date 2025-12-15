@@ -30,7 +30,9 @@ typing:
       when:
         - any:
             - contains: "Asocia"
-            - regex: 'La respuesta correcta es:\\s*.*->.*'
+            - all:
+                - contains: "La respuesta correcta es:"
+                - regex: '(->|→)'
 
     - id: multi_select
       kind: multi_select

@@ -17,8 +17,10 @@ Description-Content-Type: text/markdown
 Requires-Dist: PyMuPDF>=1.23.0
 Requires-Dist: PyYAML>=6.0
 Requires-Dist: jsonschema>=4.17.0
+Requires-Dist: jinja2>=3.0.0
 Provides-Extra: dev
 Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: beautifulsoup4>=4.9.0; extra == "dev"
 
 # Creador de tests desde PDFs (UBUVirtual / Moodle)
 

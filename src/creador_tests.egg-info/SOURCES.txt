@@ -34,8 +34,11 @@ src/creador_tests/pdf/__init__.py
 src/creador_tests/pdf/extract.py
 src/creador_tests/pdf/segment.py
 src/creador_tests/renderers/__init__.py
+src/creador_tests/renderers/ubuvirtual.py
 src/creador_tests/validate/__init__.py
 src/creador_tests/validate/schema_validate.py
 tests/test_flags_assets.py
 tests/test_golden.py
+tests/test_golden_complete.py
+tests/test_render_html.py
 tests/test_schema_validation.py
